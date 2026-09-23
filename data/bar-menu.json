@@ -1,0 +1,1990 @@
+{
+  "sections": [
+    {
+      "name": "Signature Cocktails",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Picante",
+          "prices": [
+            599
+          ],
+          "description": "Tequila, Jalapeño-infused brine, Agave, Lime, fresh Jalapeños",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Basil Smash",
+          "prices": [
+            599
+          ],
+          "description": "Gin, Basil leaves, Lime juice, Sugar syrup",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Tangerine Breeze",
+          "prices": [
+            549
+          ],
+          "description": "Gin, Lime juice, Orange juice",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Daydrunk",
+          "prices": [
+            599
+          ],
+          "description": "Aperol, Vodka, Pineapple juice, Passion fruit syrup, Lime juice",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Tipplr's Cherise",
+          "prices": [
+            599
+          ],
+          "description": "Chenin Blanc, Chardonnay, Cherry liqueur, Ginger ale, Cherries",
+          "tipplr_special": true,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Rumtum",
+          "prices": [
+            549
+          ],
+          "description": "White rum, Strawberry, Peach, Lime",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Elderlust",
+          "prices": [
+            599
+          ],
+          "description": "Gin, Elderflower, Citrus",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Lavender Haze",
+          "prices": [
+            599
+          ],
+          "description": "Lavender syrup, Gin, Lime juice, Sparkling wine",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 18
+        },
+        {
+          "name": "Lime & Luxe",
+          "prices": [
+            549
+          ],
+          "description": "Whisky, Aperol, Orange juice, Sugar syrup, Lime juice & Angostura bitters",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 19
+        },
+        {
+          "name": "Cocoa Ember",
+          "prices": [
+            599
+          ],
+          "description": "Whiskey, Kahlua, Chocolate, Triple sec",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 19
+        },
+        {
+          "name": "Peach Highball",
+          "prices": [
+            599
+          ],
+          "description": "Whiskey, Peach syrup, Basil Honey syrup, Lime juice",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 19
+        },
+        {
+          "name": "Velvet Sour",
+          "prices": [
+            599
+          ],
+          "description": "Grapefruit cordial, Whisky, Sugar syrup, Lime juice & Egg white",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "Craft Beer",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Kimaya Craft Beer (330 ml)",
+          "prices": [
+            289
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 19
+        },
+        {
+          "name": "Moonshine Mead",
+          "prices": [
+            299
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 19
+        }
+      ]
+    },
+    {
+      "name": "Beer",
+      "columns": [
+        "Pint",
+        "Bucket of 6"
+      ],
+      "items": [
+        {
+          "name": "Kingfisher Ultra",
+          "prices": [
+            329,
+            1876
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Budweiser Premium",
+          "prices": [
+            349,
+            2034
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Budweiser Magnum",
+          "prices": [
+            379,
+            2214
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Corona",
+          "prices": [
+            469,
+            2754
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Hoegarden",
+          "prices": [
+            469,
+            2754
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "People's Lager",
+          "prices": [
+            369,
+            2154
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Heineken",
+          "prices": [
+            329,
+            1876
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "name": "Beer On Tap",
+      "columns": [
+        "Glass 330 ml",
+        "Pitcher",
+        "Tower"
+      ],
+      "items": [
+        {
+          "name": "Kingfisher Premium",
+          "prices": [
+            189,
+            899,
+            1499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Heineken Silver",
+          "prices": [
+            249,
+            1199,
+            1899
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Kingfisher Ultra",
+          "prices": [
+            249,
+            1199,
+            1899
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "name": "Gin",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "GT Juniper Bomb",
+          "prices": [
+            299,
+            1499,
+            6725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Greater Than",
+          "prices": [
+            269,
+            1374,
+            5475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Stranger & Sons",
+          "prices": [
+            329,
+            1854,
+            7475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Perry Road Peru",
+          "prices": [
+            349,
+            1974,
+            7975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Bombay Sapphire",
+          "prices": [
+            349,
+            1974,
+            7975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Tanqueray",
+          "prices": [
+            349,
+            1974,
+            7975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Beefeater",
+          "prices": [
+            299,
+            1674,
+            6725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Beefeater Pink",
+          "prices": [
+            299,
+            1674,
+            6725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Hapusa Himalayan",
+          "prices": [
+            399,
+            2274,
+            9225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Jaisalmer",
+          "prices": [
+            429,
+            2454,
+            9975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Roku",
+          "prices": [
+            599,
+            3474,
+            14225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "name": "Whiskey Premium",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Blenders Pride",
+          "prices": [
+            229,
+            1254,
+            4975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        },
+        {
+          "name": "Oaksmith Gold / Nagomi",
+          "prices": [
+            229,
+            1254,
+            4975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "name": "Scotch",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Dewars White Label",
+          "prices": [
+            299,
+            1674,
+            6725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Johnnie Walker Red Label",
+          "prices": [
+            299,
+            1674,
+            6725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Teacher's Highland Cream",
+          "prices": [
+            329,
+            1854,
+            7475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Black And White",
+          "prices": [
+            329,
+            1854,
+            7475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Johnnie Walker Blonde",
+          "prices": [
+            329,
+            1854,
+            7475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Ballantine's",
+          "prices": [
+            329,
+            1854,
+            7475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Black Dog",
+          "prices": [
+            379,
+            2154,
+            8725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Dewars White Label 12 Yrs",
+          "prices": [
+            449,
+            2574,
+            10475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Johnnie Walker Black Label",
+          "prices": [
+            479,
+            2754,
+            11225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Chivas Regal",
+          "prices": [
+            489,
+            2814,
+            11475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        }
+      ]
+    },
+    {
+      "name": "Irish",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Bushmills Irish",
+          "prices": [
+            329,
+            1854,
+            7475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Jameson",
+          "prices": [
+            369,
+            2094,
+            8475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        }
+      ]
+    },
+    {
+      "name": "Tennessee Bourbon",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Jim Beam",
+          "prices": [
+            349,
+            1974,
+            7975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Jack Daniel's Tennessee",
+          "prices": [
+            399,
+            2274,
+            9225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Jack Daniel's Tennessee Fire",
+          "prices": [
+            399,
+            2274,
+            9225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        }
+      ]
+    },
+    {
+      "name": "Indian Single Malts",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Amrut Fusion",
+          "prices": [
+            549,
+            3174,
+            12975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Godawan",
+          "prices": [
+            649,
+            3774,
+            15475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        },
+        {
+          "name": "Longitude 77",
+          "prices": [
+            649,
+            3774,
+            15475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 21
+        }
+      ]
+    },
+    {
+      "name": "Single Malts",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Glenfiddich",
+          "prices": [
+            599,
+            3474,
+            14225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "The Singleton 12 Yrs",
+          "prices": [
+            649,
+            3774,
+            15475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Talisker 10 Yrs",
+          "prices": [
+            649,
+            3774,
+            15475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Glenlivet 12 Yrs",
+          "prices": [
+            649,
+            3774,
+            15475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Suntori Toki",
+          "prices": [
+            649,
+            3774,
+            15475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Glenmorangie 12 Yrs",
+          "prices": [
+            749,
+            4374,
+            17975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Macallan Double Cask",
+          "prices": [
+            1299,
+            7674,
+            31725
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Macallan Oak Sherry",
+          "prices": [
+            1399,
+            8274,
+            34225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        }
+      ]
+    },
+    {
+      "name": "Vodka",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Smirnoff",
+          "prices": [
+            209,
+            1134,
+            4475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Smirnoff Flavours (Green Apple / Jamun / Mirchi Mango)",
+          "prices": [
+            229,
+            1254,
+            4975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Rangeela",
+          "prices": [
+            299,
+            1499,
+            5746
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Absolut",
+          "prices": [
+            329,
+            1674,
+            6475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Absolut Raspberri",
+          "prices": [
+            329,
+            1674,
+            6475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Absolut Mandrin",
+          "prices": [
+            329,
+            1674,
+            6475
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Grey Goose",
+          "prices": [
+            599,
+            3474,
+            14225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        }
+      ]
+    },
+    {
+      "name": "Rum",
+      "columns": [
+        "30 ml",
+        "180 ml",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Old Monk",
+          "prices": [
+            149,
+            834,
+            2975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Bacardí Black",
+          "prices": [
+            169,
+            834,
+            2975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Bacardí Limón",
+          "prices": [
+            199,
+            1074,
+            4225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Bacardí White",
+          "prices": [
+            199,
+            1074,
+            4225
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Amrut Two Indies",
+          "prices": [
+            229,
+            1134,
+            4975
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        }
+      ]
+    },
+    {
+      "name": "Tequila",
+      "columns": [
+        "1 shot",
+        "3 shots",
+        "6 shots"
+      ],
+      "items": [
+        {
+          "name": "Camino Silver",
+          "prices": [
+            369,
+            1047,
+            2034
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Jose Cuervo Silver",
+          "prices": [
+            449,
+            1287,
+            2514
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Patron Silver",
+          "prices": [
+            749,
+            2187,
+            4314
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        },
+        {
+          "name": "Don Julio Blanco",
+          "prices": [
+            749,
+            2187,
+            4314
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 22
+        }
+      ]
+    },
+    {
+      "name": "Liquor",
+      "columns": [
+        "1 shot",
+        "3 shots",
+        "6 shots"
+      ],
+      "items": [
+        {
+          "name": "Quaffine",
+          "prices": [
+            349,
+            987,
+            1914
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Aperol",
+          "prices": [
+            349,
+            987,
+            1914
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Jägermeister",
+          "prices": [
+            529,
+            1527,
+            2994
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Baileys",
+          "prices": [
+            499,
+            1437,
+            2814
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Cointreau",
+          "prices": [
+            499,
+            1437,
+            2814
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Campari",
+          "prices": [
+            499,
+            1437,
+            2814
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        }
+      ]
+    },
+    {
+      "name": "Shots",
+      "columns": [
+        "1 shot",
+        "3 shots",
+        "6 shots"
+      ],
+      "items": [
+        {
+          "name": "Blood Drop",
+          "prices": [
+            449,
+            1287,
+            2514
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "B-52",
+          "prices": [
+            499,
+            1437,
+            2814
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Kamakaze",
+          "prices": [
+            449,
+            1287,
+            2514
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Jägerbomb",
+          "prices": [
+            599,
+            1737,
+            3414
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Tipplr House Shot",
+          "prices": [
+            399,
+            1137,
+            2214
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        }
+      ]
+    },
+    {
+      "name": "Spritzer",
+      "columns": [
+        "Glass",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Fratelli Noi",
+          "prices": [
+            499,
+            2249
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        }
+      ]
+    },
+    {
+      "name": "Wine",
+      "columns": [
+        "Glass",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Fratelli Classic Shiraz",
+          "prices": [
+            399,
+            1895
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Fratelli Classic Merlot",
+          "prices": [
+            399,
+            1895
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Fratelli Chenin Blanc",
+          "prices": [
+            399,
+            1895
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Fratelli Sauvignon Blanc",
+          "prices": [
+            399,
+            1895
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Sula Shiraz Cabernet",
+          "prices": [
+            449,
+            2145
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Sula Rasa Shiraz",
+          "prices": [
+            749,
+            3645
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "The Source Grenache Rose",
+          "prices": [
+            null,
+            2599
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Sula Late Harvest Chenin Blanc",
+          "prices": [
+            null,
+            2499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        }
+      ]
+    },
+    {
+      "name": "Imported Wine",
+      "columns": [
+        "Glass",
+        "Bottle"
+      ],
+      "items": [
+        {
+          "name": "Jacob's Creek Chardonnay",
+          "prices": [
+            null,
+            3299
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Jacob's Creek Shiraz",
+          "prices": [
+            null,
+            3299
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        },
+        {
+          "name": "Le Grand Noir Pinot Noir",
+          "prices": [
+            null,
+            3599
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 23
+        }
+      ]
+    },
+    {
+      "name": "Classic Cocktails",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Caipiroska",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Mojito",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Cosmopolitan",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Daiquiri",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Tom Collins",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Old Fashioned",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": true,
+          "page": 24
+        },
+        {
+          "name": "Mimosa",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Bellini",
+          "prices": [
+            549
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Pinacolada",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Whisky Sour",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Espresso Martini",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": true,
+          "page": 24
+        },
+        {
+          "name": "Margarita",
+          "prices": [
+            449
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Manhattan",
+          "prices": [
+            599
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Negroni",
+          "prices": [
+            599
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Aperol Spritz",
+          "prices": [
+            549
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": true,
+          "page": 24
+        },
+        {
+          "name": "Paloma",
+          "prices": [
+            549
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": true,
+          "page": 24
+        }
+      ]
+    },
+    {
+      "name": "Sangria",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Sangria Red",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Sangria White",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        },
+        {
+          "name": "Sangria Rose",
+          "prices": [
+            499
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 24
+        }
+      ]
+    },
+    {
+      "name": "Gin & Tonic",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Elderflower + Peach",
+          "prices": [
+            599
+          ],
+          "description": "A delightful blend of gin, elderflower syrup, and peach syrup, perfectly balanced with zesty lime juice and topped with refreshing tonic water. A floral and fruity escape in every sip.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 25
+        },
+        {
+          "name": "Cucumber + Basil",
+          "prices": [
+            599
+          ],
+          "description": "Crisp gin meets the coolness of cucumber syrup and the aromatic sweetness of basil syrup, finished with a splash of lime juice and tonic. A fresh and herbaceous delight.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 25
+        },
+        {
+          "name": "Pink Grapefruit + Peach",
+          "prices": [
+            599
+          ],
+          "description": "A zesty mix of gin, pink grapefruit, and peach syrups, complemented by lime. Topped with tonic water, this cocktail is a fruity, tangy sensation.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 25
+        },
+        {
+          "name": "Lavender + Lemon",
+          "prices": [
+            599
+          ],
+          "description": "Floral lavender syrup pairs beautifully with tangy lemon juice and gin, all brought together with bubbly tonic water. A refreshing and aromatic treat.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 25
+        },
+        {
+          "name": "Orange Spritz + Pomegranate",
+          "prices": [
+            599
+          ],
+          "description": "A vibrant combination of gin, orange spritz, and grenadine syrups, balanced with lime and finished with tonic water. A sweet and citrusy cocktail with a burst of color.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 25
+        }
+      ]
+    },
+    {
+      "name": "LIIT",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "The OG",
+          "prices": [
+            599
+          ],
+          "description": "A classic Long Island Iced Tea with a twist, blending vodka, gin, rum, tequila, and triple sec, finished with a refreshing splash of lime juice and Coke. Perfect for those who love bold, balanced flavors.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 26
+        },
+        {
+          "name": "Berry Fusion",
+          "prices": [
+            599
+          ],
+          "description": "A vibrant mix of vodka, gin, rum, and tequila, enriched with mixed berry puree, a touch of sweetness, and a sparkling soda finish. A fruity delight for the adventurous palate.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 26
+        },
+        {
+          "name": "Crazy Tipplr",
+          "prices": [
+            649
+          ],
+          "description": "An exciting concoction of vodka, gin, rum, tequila, and triple sec, elevated with the effervescence of beer and wine. Lime juice for a tangy finish.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 26
+        },
+        {
+          "name": "Electric",
+          "prices": [
+            699
+          ],
+          "description": "A vibrant and zesty twist on the LIIT, featuring vodka, gin, rum, tequila, and triple sec. Highlights include the unique flavor blue curacao, and a splash of Red Bull for an electrifying boost.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 26
+        },
+        {
+          "name": "Midnight Fusion",
+          "prices": [
+            649
+          ],
+          "description": "A bold and spirited combination of vodka, gin, rum, tequila, and triple sec. A no-frills cocktail for those who enjoy classic LIIT, laced with flavors of Kala Khatta.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 26
+        }
+      ]
+    },
+    {
+      "name": "Mocktails",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Orange Basil Mojito",
+          "prices": [
+            269
+          ],
+          "description": "A refreshing fusion of zesty orange chunks, fresh basil, tangy lime juice, and soda.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Mango Coconut Smoothie",
+          "prices": [
+            269
+          ],
+          "description": "A creamy tropical delight with luscious mango, smooth coconut syrup, and velvety yoghurt.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Cinderella",
+          "prices": [
+            269
+          ],
+          "description": "A magical blend of mango juice, zesty ginger, lemon juice, and sweet lychee for a vibrant finish.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Cupid",
+          "prices": [
+            269
+          ],
+          "description": "A sweet and tangy mix of kiwi crush, fresh lime juice, and crisp apple juice - love at first sip!",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Oreo Crumble",
+          "prices": [
+            269
+          ],
+          "description": "A chocolate lover's dream with Oreo biscuits, rich chocolate syrup, creamy chocolate ice cream, & milk.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Lychee Spritzer",
+          "prices": [
+            269
+          ],
+          "description": "Light and refreshing lychee juice with tangy lime and a hint of aromatic lemongrass.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Apple Surprise",
+          "prices": [
+            269
+          ],
+          "description": "A fruity medley of apple juice, sweet raspberry syrup, and lychee juice - a burst of flavor.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Iced Tea (Lemon/Strawberry/Peach)",
+          "prices": [
+            229
+          ],
+          "description": "A chilled classic with your choice of lemon, sweet strawberry, or fragrant peach flavors.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Autumn Refresher",
+          "prices": [
+            229
+          ],
+          "description": "A sparkling mix of ginger, lemongrass syrup, lime juice, and soda for an invigorating sip.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Spiced Guava",
+          "prices": [
+            269
+          ],
+          "description": "A bold, tangy mix of guava juice, lime, red chili powder, and a hint of Tabasco for a spicy kick.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        },
+        {
+          "name": "Cold Coffee",
+          "prices": [
+            269
+          ],
+          "description": "Rich coffee blended with creamy milk, smooth chocolate ice cream, and a hint of vanilla.",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 27
+        }
+      ]
+    },
+    {
+      "name": "Alcobevs",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Bacardi Breezer - Cranberry",
+          "prices": [
+            349
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Bacardi Breezer - Blackberry",
+          "prices": [
+            349
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Bacardi Breezer - Jamaican",
+          "prices": [
+            349
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        }
+      ]
+    },
+    {
+      "name": "Soft Beverages",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Water",
+          "prices": [
+            39
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Soda",
+          "prices": [
+            39
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Coca Cola",
+          "prices": [
+            69
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Sprite",
+          "prices": [
+            69
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Thums Up",
+          "prices": [
+            69
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Canned Juice (Cranberry, Orange, Guava, Mango, Apple, Grape, Litchi)",
+          "prices": [
+            139
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Tonic Water",
+          "prices": [
+            129
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Ginger Ale",
+          "prices": [
+            129
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Diet Coke",
+          "prices": [
+            149
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Red Bull",
+          "prices": [
+            239
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        }
+      ]
+    },
+    {
+      "name": "Premium Beverages",
+      "columns": [
+        "price"
+      ],
+      "items": [
+        {
+          "name": "Malaki Crystal Tonic Water",
+          "prices": [
+            149
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        },
+        {
+          "name": "Malaki Crystal Ginger Ale",
+          "prices": [
+            149
+          ],
+          "description": "",
+          "tipplr_special": false,
+          "guest_favourite": false,
+          "page": 28
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Offer (p24): 'Get your cocktail in your choice of alcohol @ 60ml price'.",
+    "Red star = 'Guest Favourite' (p24): Old Fashioned, Espresso Martini, Aperol Spritz, Paloma.",
+    "Purple circled 'T' = Tipplr Special (p18): only Tipplr's Cherise is marked.",
+    "Craft Beer (p19): '(Ask the server for the styles)'.",
+    "Footer on every bar page: 'Govt. Taxes As Applicable' and 'Service Charge @ 7.5%'.",
+    "Signature Cocktails span p18 (8 drinks, two-page landscape spread) and p19 (4 more, beside Craft Beer); merged into one section here.",
+    "'-' in wine Glass column (not sold by the glass) recorded as null.",
+    "Printed header 'Whiskey Premuim' corrected to 'Whiskey Premium'; 'Imported' section is wines (under the Wine table) so named 'Imported Wine'.",
+    "Spellings kept as printed: Hoegarden, Suntori Toki, Kamakaze, Quaffine, Rangeela 5746 bottle price (breaks the usual ...75 pattern; printed clearly as 5746), Bacardi Black 180 ml 834 (same as Old Monk; printed clearly).",
+    "Classic Cocktails, Sangria, Beer and spirits have no descriptions."
+  ],
+  "unreadable": []
+}

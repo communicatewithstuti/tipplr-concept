@@ -1,0 +1,1255 @@
+{
+  "sections": [
+    {
+      "name": "Soups - Asian",
+      "items": [
+        {
+          "name": "Tom Kha - Veg/Chicken/Prawns",
+          "price": {
+            "veg": 229,
+            "chicken": 269,
+            "prawns": 369
+          },
+          "description": "A creamy and fragrant coconut milk broth infused with lemongrass, kaffir lime, galangal, and a hint of chili. Choose veg, chicken, or prawns for a delicious Thai-inspired treat!",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 1
+        },
+        {
+          "name": "Manchow Soup - Veg/Chicken",
+          "price": {
+            "veg": 209,
+            "chicken": 259
+          },
+          "description": "A zesty Indo-Chinese soup packed with bold flavours, crisp vegetables, and your choice of veg or chicken. Topped with crunchy fried noodles for the perfect finishing touch!",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 1
+        },
+        {
+          "name": "Hot & Sour Soup - Veg/Chicken",
+          "price": {
+            "veg": 209,
+            "chicken": 259
+          },
+          "description": "A perfect balance of tangy, spicy, and savoury flavours, this classic soup is a comforting delight with every spoonful",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "name": "Soups - Continental",
+      "items": [
+        {
+          "name": "Tomato & Basil Soup",
+          "price": 259,
+          "description": "A velvety tomato soup delicately flavoured with aromatic Italian basil, offering a classic and comforting taste of Italy.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 1
+        },
+        {
+          "name": "Broccoli Almond Soup",
+          "price": 369,
+          "description": "A rich and creamy blend of tender broccoli and toasted almonds, offering a hearty and wholesome flavour in every sip.",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 1
+        },
+        {
+          "name": "Cream Of Mushroom Soup",
+          "price": 269,
+          "description": "A velvety blend of fresh mushrooms simmered in a creamy broth, infused with delicate herbs and spices for a comforting and flavourful experience.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 1
+        },
+        {
+          "name": "Cream Of Chicken Soup",
+          "price": 349,
+          "description": "Cream of chicken soup is a versatile, creamy soup made primarily with chicken broth, cream, and seasonings.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Greek Salad",
+          "price": 449,
+          "description": "A refreshing medley of cucumber, peppers, onion, tomato, and lettuce, topped with kalamata olives, crumbled feta cheese, and a zesty blend of olive oil, herbs, and lime. A true Mediterranean delight!",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 2
+        },
+        {
+          "name": "Caesar Salad (Veg/Chicken/Prawns)",
+          "price": {
+            "veg": 369,
+            "chicken": 449,
+            "prawns": 599
+          },
+          "description": "A house favourite featuring crisp lettuce and golden croutons tossed in our signature caesar dressing. Enjoy it as is or add prawns or chicken for a hearty twist!",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 2
+        },
+        {
+          "name": "Buddha Bowl (Veg / Chicken)",
+          "price": {
+            "veg": 499,
+            "chicken": 549
+          },
+          "description": "A wholesome medley of flavors and nutrition, our Buddha Bowl features tender grilled chicken, juicy chicken sausages, fresh spinach, crunchy cabbage, protein-packed edamame, grilled mushrooms and fluffy quinoa. Served with a zesty dip, it's the perfect balance of health and indulgence in every bite.",
+          "veg": null,
+          "tipplr_special": true,
+          "page": 2
+        },
+        {
+          "name": "Som Tam Salad",
+          "price": 369,
+          "description": "A zesty and refreshing Thai-inspired salad made with shredded raw papaya, crunchy sprouts, crisp French beans, cherry tomatoes, and red chili, all tossed in a flavorful peanut dressing.",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 2
+        },
+        {
+          "name": "Feta Watermelon Salad",
+          "price": 399,
+          "description": "A refreshing salad of juicy watermelon, creamy feta, and fresh herbs that perfectly balances sweet and savory flavors",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "name": "Appetizers - Indian",
+      "items": [
+        {
+          "name": "Stuffed Mushroom",
+          "price": 399,
+          "description": "Tender button mushrooms filled with a flavourful mix of chopped vegetables and cheese, marinated in a spicy blend for a deliciously bold and savoury starter.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 3
+        },
+        {
+          "name": "Paneer Tikka",
+          "price": 429,
+          "description": "Soft, spiced chunks of cottage cheese marinated in traditional Indian spices and perfectly grilled in a tandoor for a smoky and flavourful start to your meal.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 3
+        },
+        {
+          "name": "Tangra Paneer",
+          "price": 449,
+          "description": "Soft paneer marinated in aromatic spices with a fiery Schezwan twist, char-grilled to smoky perfection. A bold and flavourful fusion starter!",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 3
+        },
+        {
+          "name": "Dahi Ke Kebab",
+          "price": 429,
+          "description": "Delicate, melt-in-your-mouth kebabs made with creamy yogurt, aromatic spices, fresh herbs, and cottage cheese. A rich and flavourful vegetarian delight!",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 3
+        },
+        {
+          "name": "Tipplr's Tikki",
+          "price": 399,
+          "description": "Crispy, golden mixed veg tikki packed with spiced potatoes, peas, and veggies, perfectly crunchy outside and melt-in-the-mouth inside.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 3
+        },
+        {
+          "name": "Chicken Tikka",
+          "price": 469,
+          "description": "Succulent pieces of chicken marinated in a spiced yogurt blend, infused with aromatic Indian flavours, and grilled to a deliciously charred finish. A classic, mouthwatering appetizer!",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 3
+        },
+        {
+          "name": "Dum Ka Kebab (Half/Full)",
+          "price": {
+            "half": 599,
+            "full": 899
+          },
+          "description": "Succulent chicken marinated in a creamy mix of yogurt, cheese, fresh cream, and spices, slow-cooked in a traditional clay pot to lock in rich flavors and tenderness. A royal and indulgent kebab experience!",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 3
+        },
+        {
+          "name": "Tangadi Kebab",
+          "price": 499,
+          "description": "Juicy chicken drumsticks marinated in a rich blend of yogurt, spices, and herbs, then char-grilled to smoky perfection. A flavourful, tender kebab with every bite!",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 3
+        },
+        {
+          "name": "Garlic Chicken Tikka",
+          "price": 479,
+          "description": "Tender chicken pieces marinated in garlic, yogurt, and spices, then grilled to smoky, mouthwatering perfection.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Chicken Kalami Kebab",
+          "price": 499,
+          "description": "Succulent chunks of chicken leg marinated in aromatic spices and grilled to smoky perfection for a juicy, flavorful kebab.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Tandoori Prawns",
+          "price": 599,
+          "description": "Juicy prawns marinated in aromatic Indian spices, char-grilled to perfection for a smoky and flavourful delight.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Butter Garlic Prawns",
+          "price": 599,
+          "description": "A classic combination of flavours. Butter, garlic, parsley and lemon, they are all flavours that go well together and go particularly well with seafood.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Chicken Thecha Kebab",
+          "price": 499,
+          "description": "Chicken marinated with bold spices and a fiery thecha blend, grilled to perfection, these kebabs deliver a smoky, spicy punch balanced with subtle earthy flavours. Perfect for spice lovers!",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Chicken Sukha Taco",
+          "price": 499,
+          "description": "A fusion delight featuring spicy, dry-style chicken sukha tucked into a soft taco shell with fresh toppings.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Mutton Sukha",
+          "price": 649,
+          "description": "A coastal delicacy made with tender mutton slow-cooked in a rich blend of roasted coconut, onions, and Malwani masala.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Fish Tikka",
+          "price": 399,
+          "description": "Soft, flaky fish marinated in aromatic spices and yogurt, then grilled to a lightly charred, flavorful finish.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        },
+        {
+          "name": "Gilafi Chicken Sheekh Kebab",
+          "price": 499,
+          "description": "Juicy minced chicken seekh kebabs coated with a colorful gilafi of capsicum and onions, grilled to smoky, flavorful perfection.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "name": "Appetizers - Asian",
+      "items": [
+        {
+          "name": "Hunan Mushroom",
+          "price": 399,
+          "description": "Mushroom tossed in a bold, savoury sauce with a perfect balance of heat and spice, offering a deliciously fiery and flavourful bite.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Chilli Paneer/Chicken",
+          "price": {
+            "paneer": 399,
+            "chicken": 449
+          },
+          "description": "Spicy and tangy Indo-Chinese dish made with crispy paneer cubes tossed in a flavorful chilli sauce.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Honey Chilli Lotus Stem",
+          "price": 399,
+          "description": "It is crispy, sweet and spicy coated with honey, chilli sauce, vinegar and soy sauce which makes it lip smacking snack.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Oriental Chicken Skewers",
+          "price": 469,
+          "description": "Juicy chicken chunks marinated in savoury soy sauce, skewered and roasted to perfection, offering a smoky, umami-rich flavour with every bite.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Prawns Tempura",
+          "price": 599,
+          "description": "Delicately battered prawns, deep-fried to a crispy golden perfection, offering a light and airy crunch.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Beer Batter Prawns",
+          "price": 599,
+          "description": "Crispy golden prawns coated in a light beer batter and fried to crunchy, irresistible perfection.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Chicken Cilantro Satay",
+          "price": 499,
+          "description": "Juicy chicken satay infused with fresh cilantro and spices, grilled to a fragrant, herb-packed perfection",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 5
+        },
+        {
+          "name": "Mutton Chilli",
+          "price": 549,
+          "description": "Fiery Indo-Chinese style mutton tossed with garlic, chillies, and soy: bold, smoky, and little spicy.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 5
+        }
+      ]
+    },
+    {
+      "name": "Appetizers - Continental",
+      "items": [
+        {
+          "name": "Corn Cheese Balls",
+          "price": 369,
+          "description": "A delightful appetizer made with a creamy blend of sweet corn, cheese, and aromatic seasonings, shaped into crispy balls for a melt-in-your-mouth experience.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 6
+        },
+        {
+          "name": "Bruschetta - Mushroom / Spinach And Corn",
+          "price": 369,
+          "description": "The earthy richness of sautéed mushrooms or spinach and corn on a crispy toasted bread, creating a delightful contrast of flavors and textures in every bite. A simple yet savoury treat!",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 6
+        },
+        {
+          "name": "Quesadilla (Veg/Chicken)",
+          "price": {
+            "veg": 449,
+            "chicken": 499
+          },
+          "description": "Veg: A warm tortilla stuffed with spiced cheese, corn, and jalapenos, grilled to perfection for a crispy, cheesy, and flavourful bite with a spicy kick. Chicken: A warm house made soft tortillas filled with seasoned chicken, melted cheese, and peppers, grilled until crisp and deliciously cheesy.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 6
+        },
+        {
+          "name": "Fenu Dill Fish Fingers",
+          "price": 369,
+          "description": "Tender fish fingers marinated in a fragrant blend of Georgian spices like black pepper, fenugreek, dill, and mint, then coated in panko and fried to crispy perfection. Served with a creamy aioli for a flavorful, crunchy bite.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 6
+        },
+        {
+          "name": "Crispy Chicken Strips",
+          "price": 429,
+          "description": "Tender chicken strips coated in a crispy Parmesan panko crumb, fried to golden perfection, and served with a rich aioli for a cheesy and crunch in every bite.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "name": "Bar Bites",
+      "items": [
+        {
+          "name": "Popcorn",
+          "price": 99,
+          "description": "Light airy popped corn, perfect snacking.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Crispy Corn",
+          "price": 299,
+          "description": "Sweet corn kernels coated in a light batter, fried to crispy perfection, and tossed in a burst of flavourful seasonings. A crunchy, addictive treat!",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Corn Ribs",
+          "price": 249,
+          "description": "Succulent grilled corn ribs spiced with a fiery Piri Piri seasoning, offering a smoky and zesty flavour.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Cheese Olive Pineapple",
+          "price": 269,
+          "description": "A signature creation featuring a delicious blend of cheese, olives, and sweet pineapple, perfectly balanced to please your taste buds.",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 7
+        },
+        {
+          "name": "Garlic Chana Fry",
+          "price": 269,
+          "description": "Crispy fried chickpeas tossed in a savory garlic seasoning, delivering a bold and aromatic crunch.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Bakarwadi Chat",
+          "price": 269,
+          "description": "A unique twist on the classic, combining crispy Bakarwadi with a tangy and spicy chat mix, topped with fresh herbs and chutneys.",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 7
+        },
+        {
+          "name": "Salted Fries / Peri Peri Fries",
+          "price": {
+            "salted": 209,
+            "peri_peri": 239
+          },
+          "description": "Classic crispy fries, served either with a simple salted seasoning or with a spicy peri peri kick for a bold flavour.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Peanut Masala",
+          "price": 179,
+          "description": "Roasted peanuts mixed with diced vegetables, spices, and a squeeze of lemon juice, offering a flavourful and tangy bite.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Aluu Wadi",
+          "price": 299,
+          "description": "Taro leaves and gram flour blended with aromatic Indian spices, deep-fried to perfection, and served with flavourful salsa and mint dips.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Cheese Chilli Toast",
+          "price": 269,
+          "description": "Crispy bread topped with melted cheese and spicy green chilies, delivering a savoury and spicy toast with every bite.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Garlic Bread",
+          "price": 269,
+          "description": "Toasted bread infused with burnt garlic for a warm, savoury, and aromatic snack.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 7
+        },
+        {
+          "name": "Edamame",
+          "price": 449,
+          "description": "Lightly salted or butter garlic tossed edamame pods, offering a simple yet satisfying bite.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "Peri Peri Lotus Stem",
+          "price": 229,
+          "description": "Crispy fried lotus stem snack made by coating lotus root slices in peri peri spice and frying until crispy.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "Masala Papad (Roasted/Fried)",
+          "price": 129,
+          "description": "Crispy papad topped with a flavourful mix of tangy onions, tomatoes, and spices, offering a zesty Indian snack experience.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "Let's Nacho (Veg/Chicken)",
+          "price": {
+            "veg": 369,
+            "chicken": 399
+          },
+          "description": "Homemade tortilla chips topped with melted cheese, jalapeños, beans, and tender chicken, creating a hearty nacho delight.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "Chicken Popcorn",
+          "price": 369,
+          "description": "Juicy bite-sized chicken pieces, fried to perfection and tossed in either a cheesy or Peri Peri seasoning, making it a delectable snack.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "Keema Samosa",
+          "price": 369,
+          "description": "Crispy fried pastry pockets filled with spiced chicken minced filling, served with a tangy tamarind chutney for a burst of flavour.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "CnC (Chicken & Chips)",
+          "price": 299,
+          "description": "Crispy potato chips topped with tender chicken and smothered in a rich creamy sauce.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 8
+        },
+        {
+          "name": "Tipplr Lollipop - Fried/Tandoor",
+          "price": 449,
+          "description": "Tandoor: Tender chicken lollipop marinated in spices and cooked to perfection in a tandoor, delivering a smoky, flavourful bite. Fry: Crispy and succulent fried chicken lollipop, seasoned to perfection for a flavourful crunchy bite.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 8
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "items": [
+        {
+          "name": "Arrabiatta (Veg/Chicken)",
+          "price": {
+            "veg": 449,
+            "chicken": 499
+          },
+          "description": "Penne pasta tossed in a fiery, spicy tomato concasse with bell peppers, green chilies, basil.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 9
+        },
+        {
+          "name": "Crema Ai Funghi (Veg/Chicken)",
+          "price": {
+            "veg": 449,
+            "chicken": 499
+          },
+          "description": "Penne pasta cooked with sautéed mushrooms in a rich, creamy sauce. Add tender chicken for an extra indulgence.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 9
+        },
+        {
+          "name": "Aglio E Olio (Veg/Chicken/Prawns)",
+          "price": {
+            "veg": 399,
+            "chicken": 449,
+            "prawns": 549
+          },
+          "description": "A simple yet flavorful pasta dish made with garlic, olive oil, and perfectly cooked pasta, for a minimalist yet satisfying experience.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 9
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "items": [
+        {
+          "name": "Margherita",
+          "price": 429,
+          "description": "Classic pizza topped with fresh sliced tomatoes and aromatic basil, embodying the essence of simplicity and Italian flavours.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 10
+        },
+        {
+          "name": "Classic Veggie Pizza",
+          "price": 499,
+          "description": "A delightful combination of American corn, onions, capsicum, mushrooms, tomatoes, and black olives, creating a colorful and savoury vegetarian pizza.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 10
+        },
+        {
+          "name": "Farmhouse",
+          "price": 499,
+          "description": "A savory pizza topped with bell peppers, baby corn, broccoli, jalapenos, and mushrooms for a flavourful, wholesome bite.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 10
+        },
+        {
+          "name": "Paneer Tikka Pizza",
+          "price": 499,
+          "description": "A crispy thin-crust pizza topped with smoky paneer tikka, melted cheese, and vibrant Indian spices.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 10
+        },
+        {
+          "name": "BBQ Chicken",
+          "price": 549,
+          "description": "A smoky BBQ pizza topped with BBQ chicken, onions, capsicum, olives, and smoked cheese, delivering a rich and savoury taste.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 10
+        },
+        {
+          "name": "Meat Lover",
+          "price": 599,
+          "description": "A pizza bursting with herbed chicken, chicken tikka, chicken sausage, salami satisfying all your meat cravings.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 10
+        },
+        {
+          "name": "Tipplr's Tikka Pizza",
+          "price": 499,
+          "description": "A flavorful pizza loaded with assorted chicken tikka pieces, melted cheese, and aromatic spices on a crispy crust.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 10
+        },
+        {
+          "name": "Nanza (Veg/Chicken)",
+          "price": {
+            "veg": 399,
+            "chicken": 449
+          },
+          "description": "A fusion-style naan base topped with fresh vegetables/ spiced chicken, savory sauce, and melted cheese for a bold, delicious desi twist.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 10
+        }
+      ]
+    },
+    {
+      "name": "Mains - Indian",
+      "items": [
+        {
+          "name": "Paneer Tikka Masala",
+          "price": 479,
+          "description": "Smoky, spiced paneer tikka pieces tossed with peppers and simmered in a rich, tangy tomato-based gravy.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 11
+        },
+        {
+          "name": "Tipplr's Special Veg",
+          "price": 449,
+          "description": "A luxurious blend of exotic vegetables cooked in a fragrant, gourmet gravy for a truly unique Indian experience.",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 11
+        },
+        {
+          "name": "Veg Bhuna",
+          "price": 449,
+          "description": "Minced vegetable balls, slow-cooked in a rich, spiced curry, bringing depth and complexity to every bite.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 11
+        },
+        {
+          "name": "Subz Diwani Handi",
+          "price": 449,
+          "description": "A classical North Indian cuisine mixed vegetable curry prepared using a traditional clay pot known as handi.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 11
+        },
+        {
+          "name": "Dal Fry/Tadka",
+          "price": 299,
+          "description": "A hearty lentil-based dal cooked with a flavourful tempering of spices and herbs, offering a comforting taste.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 11
+        },
+        {
+          "name": "Butter Chicken",
+          "price": 499,
+          "description": "Marinated tandoori chicken simmered in a rich, creamy tomato gravy, delivering the classic butter chicken flavour.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 11
+        },
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 499,
+          "description": "Smoky marinated chicken chunks cooked in a spiced, creamy tomato gravy, offering a perfect blend of tangy and savoury",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 11
+        },
+        {
+          "name": "Mutton Rogan Josh",
+          "price": 599,
+          "description": "Tender mutton braised in a flavourful gravy, infused with garlic, ginger and aromatic spices for a rich, bold taste.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 11
+        },
+        {
+          "name": "Anda Masala",
+          "price": 349,
+          "description": "Boiled eggs cooked in a rich, homestyle masala gravy, blending the perfect balance of spices and comfort.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 12
+        },
+        {
+          "name": "Chicken Nawabi Handi",
+          "price": 499,
+          "description": "A royal-style chicken curry slow-cooked in a rich, creamy Nawabi gravy with aromatic spices",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 12
+        },
+        {
+          "name": "Chicken Angara",
+          "price": 499,
+          "description": "A smoky and fiery chicken curry infused with charcoal aroma and bold spices for a rich, intense flavor",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 12
+        },
+        {
+          "name": "Chicken Malwani Curry",
+          "price": 499,
+          "description": "A rich and flavorful coconut-based chicken curry cooked in traditional Malwani spices, offering a perfect blend of heat and coastal aromas.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 12
+        }
+      ]
+    },
+    {
+      "name": "Mains - Asian",
+      "items": [
+        {
+          "name": "Kung Pao Vegetables / Chicken",
+          "price": {
+            "veg": 449,
+            "chicken": 469
+          },
+          "description": "A spicy stir-fry of assorted veggies/chicken with cashews and red chili, cooked in a flavourful chili-soy sauce.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Thai Curry (Green/Red) - Veg/Chicken/Prawns",
+          "price": {
+            "veg": 569,
+            "chicken": 599,
+            "prawns": 669
+          },
+          "description": "Rich, traditional Thai curry with a choice of vegetables, chicken or prawns, served with aromatic basil rice.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Burmese Khow Suey - Veg/Chicken",
+          "price": {
+            "veg": 599,
+            "chicken": 649
+          },
+          "description": "A creamy, flavourful noodle dish cooked in coconut milk, balanced with spicy, tangy, and savory elements, simmered in aromatic curry powder.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Fried Rice - Veg/Egg/Chicken/Prawns",
+          "price": {
+            "veg": 349,
+            "egg": 369,
+            "chicken": 399,
+            "prawns": 449
+          },
+          "description": "Stir-fried rice with a medley of vegetables and savory seasonings, creating a flavorful and comforting dish.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Schezwan Fried Rice - Veg/Chicken/Prawns",
+          "price": {
+            "veg": 369,
+            "chicken": 399,
+            "prawns": 479
+          },
+          "description": "Stir-fried rice with your choice of vegetables, chicken, or prawns, cooked in a tangy and spicy Schezwan sauce for a bold, fiery flavor.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Hakka Noodles - Veg/Chicken/Prawns",
+          "price": {
+            "veg": 349,
+            "chicken": 369,
+            "prawns": 469
+          },
+          "description": "Stir-fried noodles with a mix of vegetables, chicken, or prawns, in a savoury, aromatic sauce, offering a flavourful, satisfying bite.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Schezwan Noodles - Veg/Chicken/Prawns",
+          "price": {
+            "veg": 369,
+            "chicken": 389,
+            "prawns": 499
+          },
+          "description": "Stir-fried noodles in a spicy Schezwan sauce with a mix of vegetables/chicken/prawns in a savoury, aromatic sauce, offering a flavourful, satisfying bite.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Thukpa - Veg / Chicken",
+          "price": {
+            "veg": 469,
+            "chicken": 499
+          },
+          "description": "A traditional Tibetan noodle soup, rich in flavour with vegetables and optionally topped with chicken for a hearty, comforting meal.",
+          "veg": null,
+          "tipplr_special": false,
+          "page": 13
+        },
+        {
+          "name": "Pot Rice (Veg/Non Veg)",
+          "price": {
+            "veg": 449,
+            "non_veg": 499
+          },
+          "description": "A fragrant herbed rice served with a rich gravy of veggies, mushrooms or chicken for a wholesome comforting meal",
+          "veg": null,
+          "tipplr_special": true,
+          "page": 13
+        }
+      ]
+    },
+    {
+      "name": "Mains - Continental",
+      "items": [
+        {
+          "name": "Cottage Cheese Steak",
+          "price": 549,
+          "description": "Marinated cottage cheese steaks, shallow-fried to perfection, and served with sautéed vegetables and a savory sauce for a rich and indulgent meal.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 14
+        },
+        {
+          "name": "Pollo Ai Fungi",
+          "price": 549,
+          "description": "Tender chicken breast stuffed with creamy cheese and mushrooms, served with sautéed vegetables and fragrant herb rice for a gourmet experience.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 14
+        },
+        {
+          "name": "BBQ Chicken",
+          "price": 579,
+          "description": "Succulent BBQ-marinated chicken grilled to perfection, served with a BBQ sauce for added depth and flavour.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 14
+        },
+        {
+          "name": "Grilled Chicken Pontalba",
+          "price": 579,
+          "description": "Juicy rosemary-grilled chicken served with a flavorful onion paprika jus, offering a savory and aromatic experience.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 14
+        },
+        {
+          "name": "Chicken Ala Kiev",
+          "price": 579,
+          "description": "Tender chicken breast filled with butter, rolled, breaded, and fried, served with sautéed vegetables and creamy garlic mash for a delightful meal.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 14
+        },
+        {
+          "name": "Pesto Grilled Chicken",
+          "price": 599,
+          "description": "Grilled chicken infused with the flavours of fresh basil, parmesan cheese, garlic, and lemon juice for a vibrant, flavourful dish.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 14
+        }
+      ]
+    },
+    {
+      "name": "Rice",
+      "items": [
+        {
+          "name": "Steam Rice",
+          "price": 199,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Jeera Rice",
+          "price": 239,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Dal Khichdi",
+          "price": 329,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Veg Biryani",
+          "price": 369,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Biryani - Chicken / Mutton",
+          "price": {
+            "chicken": 499,
+            "mutton": 649
+          },
+          "description": "",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Tipplr's Mutton Dal Khichadi",
+          "price": 599,
+          "description": "",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 15
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "name": "Roti/Butter Roti",
+          "price": {
+            "roti": 59,
+            "butter_roti": 59
+          },
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Naan/Butter Naan",
+          "price": {
+            "naan": 69,
+            "butter_naan": 79
+          },
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Butter Garlic Naan/Cheese Garlic Naan",
+          "price": {
+            "butter_garlic_naan": 129,
+            "cheese_garlic_naan": 179
+          },
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        }
+      ]
+    },
+    {
+      "name": "Accompaniment",
+      "items": [
+        {
+          "name": "Green Salad",
+          "price": 149,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        },
+        {
+          "name": "Boondi Raita",
+          "price": 149,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 15
+        }
+      ]
+    },
+    {
+      "name": "Dim Sums - Asian",
+      "items": [
+        {
+          "name": "Water Chestnut Corn Basil",
+          "price": 399,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 16
+        },
+        {
+          "name": "Spicy Mushroom",
+          "price": 349,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 16
+        },
+        {
+          "name": "Edamame Truffle",
+          "price": 449,
+          "description": "",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 16
+        },
+        {
+          "name": "Chicken Coriander",
+          "price": 399,
+          "description": "",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 16
+        },
+        {
+          "name": "Thai Style Chicken",
+          "price": 399,
+          "description": "",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 16
+        },
+        {
+          "name": "Prawns Hargao",
+          "price": 449,
+          "description": "",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 16
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "items": [
+        {
+          "name": "Sizzling Brownie",
+          "price": 329,
+          "description": "A rich, warm brownie served on a sizzling platter, topped with a scoop of vanilla ice cream and drizzled with chocolate sauce for an indulgent treat.",
+          "veg": false,
+          "tipplr_special": false,
+          "page": 17
+        },
+        {
+          "name": "Baileys Kharwas (AL)",
+          "price": 399,
+          "description": "A traditional Indian milk pudding, jaggery, paired with handmade Irish Baileys cream for a luxurious, creamy texture.",
+          "veg": true,
+          "tipplr_special": true,
+          "page": 17
+        },
+        {
+          "name": "Kaapi Caramel Custard",
+          "price": 329,
+          "description": "A silky smooth egg-based caramel custard infused with the rich aroma of south indian filter coffee, creating a delightful blend of sweetness and bold flavours.",
+          "veg": false,
+          "tipplr_special": true,
+          "page": 17
+        },
+        {
+          "name": "House Cheese Cake - Blueberry/Biscoff/Nutella",
+          "price": {
+            "blueberry": 369,
+            "biscoff": 369,
+            "nutella": 399
+          },
+          "description": "The classic cheesecake features a buttery, crumbly cracker or biscuit crust that provides a perfect contrast to the soft filling, made from cream cheese, sugar, giving it a subtle sweetness and a creamy depth of flavor.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 17
+        },
+        {
+          "name": "Dark Chocolate Mousse",
+          "price": 399,
+          "description": "Velvety dessert with deep chocolate flavor, creating a perfect blend of indulgence and warmth.",
+          "veg": true,
+          "tipplr_special": false,
+          "page": 17
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Legend on every food page: purple chef-hat icon = Tipplr Special; red dot = Non Veg; green dot = Veg.",
+    "Footer on every page: 'Govt. Taxes As Applicable' and 'Service Charge @ 7.5%' (page 13 words it 'We Levy 7.5% Service Charge').",
+    "Food pages use a purple chef-hat icon for Tipplr Special; the bar pages (18) use a purple circled 'T' icon for the same label.",
+    "A red chilli icon (not in the legend, presumably 'spicy') appears beside Manchow Soup (p1) and Pot Rice (p13).",
+    "Dessert page: '(AL) Alcohol' marks Baileys Kharwas as containing alcohol.",
+    "Sizzling Brownie and Kaapi Caramel Custard carry a red (non-veg) dot; the custard description says egg-based.",
+    "Tipplr Lollipop's red dot and special icon are printed at the end of its description rather than beside the name.",
+    "Quesadilla carries two separate descriptions (veg and chicken); combined here with Veg:/Chicken: labels.",
+    "Masala Papad (Roasted/Fried), Bruschetta (Mushroom / Spinach And Corn) and Tipplr Lollipop (Fried/Tandoor) list one price for both options.",
+    "Dim Sums page has no descriptions; veg (first three) and non-veg (last three) are grouped separately. Rice, Breads and Accompaniment also have no descriptions.",
+    "Side tabs group pages as: Soups, Salads, Appetizers, Bar Bites, Pizza/Pasta, Mains, Rice/Breads, Dessert.",
+    "Bar page offer (p24): 'Get your cocktail in your choice of alcohol @ 60ml price'. Bar page (p24) also uses a red star for 'Guest Favourite' (Old Fashioned, Espresso Martini, Aperol Spritz, Paloma).",
+    "No combos or happy-hour offers appear anywhere in the 28 pages."
+  ],
+  "bar_pages": [
+    {
+      "page": 18,
+      "sections": [
+        "Signature Cocktails"
+      ],
+      "note": "Two-page landscape spread; Tipplr's Cherise marked Tipplr Special"
+    },
+    {
+      "page": 19,
+      "sections": [
+        "Craft Beer",
+        "Signature Cocktails"
+      ]
+    },
+    {
+      "page": 20,
+      "sections": [
+        "Beer",
+        "Beer On Tap",
+        "Gin",
+        "Whiskey Premium"
+      ]
+    },
+    {
+      "page": 21,
+      "sections": [
+        "Scotch",
+        "Irish",
+        "Tennessee Bourbon",
+        "Indian Single Malts"
+      ]
+    },
+    {
+      "page": 22,
+      "sections": [
+        "Single Malts",
+        "Vodka",
+        "Rum",
+        "Tequila"
+      ]
+    },
+    {
+      "page": 23,
+      "sections": [
+        "Liquor",
+        "Shots",
+        "Spritzer",
+        "Wine",
+        "Imported"
+      ]
+    },
+    {
+      "page": 24,
+      "sections": [
+        "Classic Cocktails",
+        "Sangria"
+      ]
+    },
+    {
+      "page": 25,
+      "sections": [
+        "Gin & Tonic"
+      ]
+    },
+    {
+      "page": 26,
+      "sections": [
+        "LIIT"
+      ]
+    },
+    {
+      "page": 27,
+      "sections": [
+        "Mocktails"
+      ]
+    },
+    {
+      "page": 28,
+      "sections": [
+        "Alcobevs",
+        "Soft Beverages",
+        "Premium Beverages"
+      ]
+    }
+  ],
+  "unreadable": [],
+  "duplicate_pages": [],
+  "cover_pages": []
+}

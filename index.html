@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tipplr Bar Pune</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="images/tipplr-wordmark.png">
+<style>[hidden]{display:none!important}</style>
+<meta name="description" content="Tipplr Bar, a modern neighbourhood bar on Bhandarkar Road, Pune. Coffee and happy hours by day, cocktails and kebabs by night. Open 12 noon to 12 midnight.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Ms+Madi&family=Quicksand:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #FBF4E9;
+    --paper: #FFFAF2;
+    --ink: #33251E;
+    --muted: #7B6558;
+    --clay: #A4552F;
+    --clay-deep: #7E3F21;
+    --on-clay: #FFF8EE;
+    --sage: #DCE5D6;
+    --sage-deep: #56705C;
+    --line: #E7D8C6;
+    --glow: #D98C3C;
+    --veg: #2F8A3E;
+    --nonveg: #B3261E;
+    --script: "Ms Madi", "Snell Roundhand", "Brush Script MT", cursive;
+    --serif: "DM Serif Display", "Didot", Georgia, serif;
+    --sans: "Quicksand", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    --r: 18px;
+    --ease: cubic-bezier(.2,.7,.2,1);
+  }
+  body.night {
+    color-scheme: dark;
+    --bg: #17110E;
+    --paper: #221813;
+    --ink: #F4E8D6;
+    --muted: #BFA893;
+    --clay: #E38D5B;
+    --clay-deep: #F3AC80;
+    --on-clay: #1B120E;
+    --sage: #26302A;
+    --sage-deep: #A9C3AB;
+    --line: #3A2C25;
+    --glow: #F2B45E;
+    --veg: #5CC26B;
+    --nonveg: #F0685E;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans); font-size: 17px; line-height: 1.6; font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color .9s var(--ease), color .9s var(--ease);
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  :focus-visible { outline: 3px solid var(--glow); outline-offset: 3px; border-radius: 6px; }
+  .wrap { max-width: 1200px; margin-inline: auto; padding-inline: 22px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* Brand marks, recoloured through masks */
+  .wordmark {
+    display: block; aspect-ratio: 441 / 217; background: currentColor;
+    -webkit-mask: url(images/tipplr-wordmark.png) center / contain no-repeat;
+    mask: url(images/tipplr-wordmark.png) center / contain no-repeat;
+  }
+  .illo {
+    display: block; aspect-ratio: 664 / 423; background: currentColor;
+    -webkit-mask: url(images/bar-illustration.png) center / contain no-repeat;
+    mask: url(images/bar-illustration.png) center / contain no-repeat;
+  }
+
+  /* Concept ribbon */
+  .concept { background: var(--ink); color: var(--bg); text-align: center; font-size: 13px; padding: 7px 16px; letter-spacing: .02em; transition: inherit; }
+  .concept b { font-weight: 700; }
+
+  /* Header */
+  header.top {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30;
+    background: color-mix(in srgb, var(--bg) 86%, transparent);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+    transition: background-color .9s var(--ease), border-color .9s var(--ease);
+  }
+  header.top .wrap { display: flex; align-items: center; gap: 24px; padding-block: 12px; }
+  .logo { color: var(--clay); width: 92px; flex: none; }
+  nav.links { display: flex; gap: 26px; margin-left: 8px; font-weight: 600; font-size: 15px; }
+  nav.links a { text-decoration: none; color: var(--muted); }
+  nav.links a:hover { color: var(--clay); }
+  .top .right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+
+  .mode {
+    display: inline-flex; align-items: center; gap: 2px; padding: 4px; border-radius: 999px;
+    background: var(--paper); border: 1px solid var(--line); cursor: pointer; font: 700 13px var(--sans); color: var(--muted);
+  }
+  .mode span { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; transition: background .5s var(--ease), color .5s var(--ease); }
+  .mode svg { width: 16px; height: 16px; }
+  body:not(.night) .mode .d, body.night .mode .n { background: var(--clay); color: var(--on-clay); }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    font: 700 15px var(--sans); letter-spacing: .01em; padding: 12px 22px; border-radius: 999px;
+    background: var(--clay); color: var(--on-clay); border: 2px solid var(--clay); text-decoration: none; cursor: pointer;
+    transition: transform .2s var(--ease), background-color .3s, border-color .3s, color .3s;
+  }
+  .btn:hover { background: var(--clay-deep); border-color: var(--clay-deep); transform: translateY(-1px); }
+  .btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+  .btn.ghost:hover { border-color: var(--clay); color: var(--clay); background: transparent; }
+  .btn.light { background: #FFF8EE; color: #2A1D17; border-color: #FFF8EE; }
+  .btn.light:hover { background: #fff; border-color: #fff; }
+  .btn.outline-light { background: transparent; color: #FFF8EE; border-color: rgba(255,248,238,.6); }
+  .btn.outline-light:hover { border-color: #FFF8EE; background: rgba(255,248,238,.1); }
+  .btn svg { width: 18px; height: 18px; flex: none; }
+
+  /* Hero */
+  .hero { position: relative; min-height: min(760px, 88vh); display: grid; align-items: end; overflow: hidden; color: #FFF8EE; background: #2A1D17; }
+  .hero .shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity 1.1s var(--ease), transform 8s linear; }
+  .hero .shot.day { object-position: 50% 60%; }
+  .hero .shot.night { object-position: 50% 50%; opacity: 0; }
+  body.night .hero .shot.day { opacity: 0; }
+  body.night .hero .shot.night { opacity: 1; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,12,9,.62) 0%, rgba(20,12,9,.25) 45%, rgba(20,12,9,0) 70%), linear-gradient(180deg, rgba(20,12,9,.1) 0%, rgba(20,12,9,0) 35%, rgba(20,12,9,.7) 100%); }
+  body.night .hero::after { background: linear-gradient(90deg, rgba(10,6,4,.5) 0%, rgba(10,6,4,0) 60%), linear-gradient(180deg, rgba(10,6,4,.2) 0%, rgba(10,6,4,.1) 35%, rgba(10,6,4,.8) 100%); }
+  .hero .wrap { position: relative; z-index: 2; padding-block: 120px 56px; width: 100%; }
+  .status {
+    display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 14px;
+    background: rgba(20,12,9,.45); border: 1px solid rgba(255,248,238,.25); padding: 7px 14px; border-radius: 999px;
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  }
+  .status i { width: 9px; height: 9px; border-radius: 50%; background: #7BD88A; box-shadow: 0 0 0 4px rgba(123,216,138,.25); }
+  .status.closed i { background: #F2B45E; box-shadow: 0 0 0 4px rgba(242,180,94,.25); }
+  .hero h1 { margin: 22px 0 14px; font-weight: 400; line-height: .95; max-width: 13em; text-wrap: balance; }
+  .hero h1 .by { display: block; font-family: var(--script); font-size: clamp(56px, 8vw, 104px); line-height: .8; margin-bottom: 6px; color: #F6D3A8; }
+  .hero h1 .line { display: block; font-family: var(--serif); font-size: clamp(40px, 5.6vw, 76px); letter-spacing: -.01em; text-shadow: 0 2px 24px rgba(0,0,0,.25); }
+  .hero .swap { display: grid; }
+  .hero .swap > * { grid-area: 1 / 1; transition: opacity .8s var(--ease), transform .8s var(--ease); }
+  body.night .hero .swap .dayc, body:not(.night) .hero .swap .nightc { opacity: 0; transform: translateY(10px); pointer-events: none; }
+  .hero p.lede { font-size: 19px; max-width: 46ch; margin: 0 0 28px; color: #F3E6D6; }
+  .hero .ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+  .hero .clock { margin-top: 26px; font-size: 14px; color: #E8D6C2; }
+
+  /* Noon to midnight */
+  .day2night { padding-block: 72px 30px; }
+  .d2n-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px 40px; margin-bottom: 30px; }
+  .eyebrow { font-weight: 700; font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--sage-deep); }
+  h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(36px, 5vw, 58px); line-height: 1.02; margin: 8px 0 0; text-wrap: balance; letter-spacing: -.01em; }
+  h2 .s { font-family: var(--script); font-size: 1.35em; color: var(--clay); line-height: .6; display: inline-block; transform: translateY(.06em); margin-right: .06em; }
+  .d2n-head p { max-width: 44ch; margin: 0; color: var(--muted); }
+  .timeline { position: relative; border-radius: 22px; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); }
+  .slot { all: unset; box-sizing: border-box; cursor: pointer; padding: 26px 28px 30px; display: grid; gap: 6px; min-height: 190px; align-content: start; position: relative; transition: filter .3s; }
+  .slot:hover { filter: brightness(1.04); }
+  .slot:focus-visible { outline: 3px solid var(--glow); outline-offset: -6px; }
+  .slot.d { background: linear-gradient(120deg, #F8E7C9, #EFD9B0); color: #3A2A20; }
+  .slot.n { background: linear-gradient(120deg, #3A2418, #1E1410); color: #F4E8D6; }
+  .slot .hrs { font-weight: 700; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; opacity: .75; }
+  .slot b { font-family: var(--serif); font-weight: 400; font-size: clamp(26px, 3vw, 36px); line-height: 1.1; }
+  .slot p { margin: 0; max-width: 40ch; opacity: .85; font-size: 15.5px; }
+  .slot .go { margin-top: 10px; font-weight: 700; font-size: 14px; text-decoration: underline; text-underline-offset: 4px; }
+  .now-marker { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--glow); z-index: 2; pointer-events: none; }
+  .now-marker span { position: absolute; top: 12px; left: 8px; white-space: nowrap; font-weight: 700; font-size: 12.5px; background: var(--glow); color: #1B120E; padding: 3px 9px; border-radius: 999px; }
+  .now-marker[hidden] { display: none; }
+  .scale { display: flex; justify-content: space-between; font-size: 13px; font-weight: 700; color: var(--muted); padding: 10px 4px 0; font-variant-numeric: tabular-nums; }
+
+  /* Proof */
+  .proof { padding-block: 34px 10px; }
+  .proof .row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .proof .row > div { padding: 18px 20px; display: grid; gap: 2px; }
+  .proof .row > div + div { border-left: 1px solid var(--line); }
+  .proof b { font-family: var(--serif); font-weight: 400; font-size: 34px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .proof b small { font-family: var(--sans); font-size: 15px; color: var(--muted); font-weight: 600; margin-left: 4px; }
+  .proof span { font-size: 14px; color: var(--muted); font-weight: 600; }
+  .proof .talk { margin: 14px 0 0; font-size: 15px; color: var(--muted); }
+  .proof .talk strong { color: var(--ink); }
+
+  section.block { padding-block: 90px; }
+  .head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 18px 40px; margin-bottom: 36px; }
+  .head p { max-width: 50ch; margin: 0; color: var(--muted); }
+
+  /* Signature cocktails */
+  .sig .wrap { display: grid; grid-template-columns: .9fr 1.1fr; gap: 56px; align-items: start; }
+  .sig .photo { position: sticky; top: 96px; border-radius: 26px; overflow: hidden; aspect-ratio: 4 / 5; max-width: 100%; background: var(--paper); }
+  .sig .photo img { width: 100%; height: 100%; object-fit: cover; transition: opacity .9s var(--ease); position: absolute; inset: 0; }
+  .sig .photo .n { opacity: 0; }
+  body.night .sig .photo .n { opacity: 1; }
+  body.night .sig .photo .d { opacity: 0; }
+  .sig .photo .illo { position: absolute; right: 18px; bottom: 18px; width: 120px; color: #FFF8EE; opacity: .85; }
+  .sig h2 { font-size: clamp(44px, 6vw, 72px); }
+  .sig h2 .s { display: block; font-size: 1.15em; line-height: .7; transform: none; margin: 0 0 6px -.02em; }
+  .drinks { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 36px; }
+  .drinks li { padding: 16px 0; border-bottom: 1px dashed var(--line); display: grid; grid-template-columns: 1fr auto; gap: 2px 14px; align-content: start; }
+  .drinks .nm { font-family: var(--serif); font-size: 22px; line-height: 1.2; color: var(--clay); }
+  .drinks .pr { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .drinks .ds { grid-column: 1 / -1; font-size: 14.5px; color: var(--muted); line-height: 1.45; }
+  .drinks .tag { display: inline-block; font: 700 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--sage-deep); margin-left: 6px; vertical-align: middle; }
+  .offer { margin-top: 26px; padding: 18px 20px; border-radius: 16px; background: var(--sage); color: var(--ink); font-weight: 600; display: flex; gap: 14px; align-items: center; }
+  .offer svg { width: 28px; height: 28px; flex: none; color: var(--sage-deep); }
+
+  /* Menu */
+  .menu { background: var(--paper); border-block: 1px solid var(--line); transition: background-color .9s var(--ease); }
+  .menu-tabs { display: inline-flex; padding: 5px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); gap: 4px; }
+  .menu-tabs button { all: unset; cursor: pointer; font: 700 15px var(--sans); padding: 10px 20px; border-radius: 999px; color: var(--muted); }
+  .menu-tabs button[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+  .menu-tabs button:focus-visible { outline: 3px solid var(--glow); }
+  .menu-tabs small { font-weight: 600; opacity: .7; margin-left: 4px; }
+  .tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 22px 0 14px; }
+  .search { flex: 1 1 280px; position: relative; }
+  .search svg { position: absolute; left: 16px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); color: var(--muted); }
+  .search input {
+    width: 100%; font: 600 16px var(--sans); color: var(--ink); background: var(--bg);
+    border: 1.5px solid var(--line); border-radius: 999px; padding: 12px 18px 12px 44px;
+  }
+  .search input:focus { outline: none; border-color: var(--clay); }
+  .toggle { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 14.5px; cursor: pointer; user-select: none; }
+  .toggle input { appearance: none; -webkit-appearance: none; width: 42px; height: 24px; border-radius: 999px; background: var(--line); position: relative; cursor: pointer; transition: background .25s; margin: 0; }
+  .toggle input::after { content: ""; position: absolute; top: 3px; left: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; transition: transform .25s var(--ease); box-shadow: 0 1px 3px rgba(0,0,0,.25); }
+  .toggle input:checked { background: var(--veg); }
+  .toggle input:checked::after { transform: translateX(18px); }
+  .toggle input:focus-visible { outline: 3px solid var(--glow); outline-offset: 2px; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px 14px; scrollbar-width: thin; }
+  .chip { all: unset; cursor: pointer; white-space: nowrap; font: 700 14px var(--sans); padding: 8px 16px; border-radius: 999px; border: 1.5px solid var(--line); color: var(--muted); }
+  .chip:hover { border-color: var(--clay); color: var(--clay); }
+  .chip[aria-pressed="true"] { background: var(--clay); border-color: var(--clay); color: var(--on-clay); }
+  .chip:focus-visible { outline: 3px solid var(--glow); }
+  .menu-body { min-height: 300px; }
+  .msec { margin-top: 30px; }
+  .msec h3 { font-family: var(--serif); font-weight: 400; font-size: 30px; margin: 0 0 4px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .msec h3 small { font-family: var(--sans); font-size: 13px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+  .items { display: grid; grid-template-columns: 1fr 1fr; gap: 0 44px; }
+  .item { padding: 16px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto; gap: 3px 16px; align-items: baseline; align-content: start; }
+  .item .nm { font-weight: 700; font-size: 16.5px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .item .pr { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  .item .pr.multi { grid-column: 1 / -1; text-align: left; white-space: normal; color: var(--ink); font-size: 14.5px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .item .pr.multi span { color: var(--muted); font-weight: 600; }
+  .item .ds { grid-column: 1 / -1; color: var(--muted); font-size: 14.5px; line-height: 1.45; }
+  .dot { width: 14px; height: 14px; border: 1.5px solid currentColor; border-radius: 3px; display: inline-grid; place-items: center; flex: none; }
+  .dot::after { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+  .dot.v { color: var(--veg); } .dot.nv { color: var(--nonveg); }
+  .badge { font: 700 10.5px var(--sans); letter-spacing: .08em; text-transform: uppercase; padding: 3px 8px; border-radius: 999px; background: var(--sage); color: var(--sage-deep); }
+  .badge.sp { background: var(--clay); color: var(--on-clay); }
+  .empty { padding: 50px 0; text-align: center; color: var(--muted); }
+  .menu-foot { margin-top: 30px; font-size: 13.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 22px; }
+
+  /* Kitchen mosaic */
+  .mosaic { display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 150px; gap: 14px; }
+  .tile { position: relative; border-radius: 20px; overflow: hidden; background: var(--paper); margin: 0; }
+  .tile img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s var(--ease); }
+  .tile:hover img { transform: scale(1.04); }
+  .tile figcaption { position: absolute; left: 12px; bottom: 12px; right: 12px; display: flex; justify-content: space-between; gap: 10px; align-items: end; color: #FFF8EE; font-weight: 700; font-size: 15px; text-shadow: 0 1px 10px rgba(0,0,0,.45); }
+  .tile figcaption em { font-style: normal; background: rgba(20,12,9,.55); padding: 3px 10px; border-radius: 999px; font-size: 13.5px; text-shadow: none; white-space: nowrap; }
+  .tile.shade::after { content: ""; position: absolute; inset: 55% 0 0; background: linear-gradient(transparent, rgba(20,12,9,.6)); pointer-events: none; }
+  .tile figcaption { z-index: 2; }
+  .t1 { grid-column: 1 / 6; grid-row: 1 / 5; }
+  .t2 { grid-column: 6 / 10; grid-row: 1 / 3; }
+  .t3 { grid-column: 10 / 13; grid-row: 1 / 3; }
+  .t4 { grid-column: 6 / 9; grid-row: 3 / 5; }
+  .t5 { grid-column: 9 / 13; grid-row: 3 / 5; }
+  .t6 { grid-column: 1 / 7; grid-row: 5 / 7; }
+  .t7 { grid-column: 7 / 13; grid-row: 5 / 7; }
+  .talked { margin-top: 22px; color: var(--muted); font-size: 15px; }
+
+  /* Events */
+  .events { background: var(--sage); transition: background-color .9s var(--ease); }
+  .ev-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .ev { background: var(--paper); border-radius: 22px; overflow: hidden; display: flex; flex-direction: column; transition: background-color .9s var(--ease); }
+  .ev .img { aspect-ratio: 4 / 3; overflow: hidden; position: relative; background: var(--bg); }
+  .ev .img img { width: 100%; height: 100%; object-fit: cover; }
+  .ev .img .illo { position: absolute; inset: 18% 14%; width: auto; color: var(--clay); }
+  .ev .body { padding: 22px 22px 24px; display: grid; gap: 8px; }
+  .ev .when { font-weight: 700; font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--clay); }
+  .ev h3 { font-family: var(--serif); font-weight: 400; font-size: 27px; line-height: 1.1; margin: 0; }
+  .ev p { margin: 0; color: var(--muted); font-size: 15.5px; }
+  .ev-foot { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+  .ev-foot p { margin: 0; font-weight: 600; }
+
+  /* Space */
+  .space-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 210px; gap: 14px; }
+  .space-grid figure { margin: 0; position: relative; border-radius: 20px; overflow: hidden; }
+  .space-grid img { width: 100%; height: 100%; object-fit: cover; }
+  .space-grid figcaption { position: absolute; left: 12px; bottom: 12px; font-weight: 700; font-size: 14px; color: #FFF8EE; background: rgba(20,12,9,.5); padding: 4px 12px; border-radius: 999px; backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+  .s1 { grid-column: span 2; grid-row: span 2; }
+  .s4, .s5 { grid-row: span 2; }
+  .s6 { grid-column: span 2; }
+
+  /* Visit */
+  .visit .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+  .info { display: grid; gap: 22px; }
+  .info .card { background: var(--paper); border: 1px solid var(--line); border-radius: 22px; padding: 26px; display: grid; gap: 14px; transition: background-color .9s var(--ease), border-color .9s var(--ease); }
+  .info dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 12px 20px; }
+  .info dt { font-weight: 700; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
+  .info dd { margin: 0; font-weight: 600; }
+  .info .acts { display: flex; flex-wrap: wrap; gap: 10px; }
+  .info .also { font-size: 14px; color: var(--muted); margin: 0; }
+  .info .also a { font-weight: 700; }
+  form.reserve { background: var(--ink); color: var(--bg); border-radius: 26px; padding: 30px; display: grid; gap: 16px; transition: background-color .9s var(--ease), color .9s var(--ease); }
+  form.reserve h3 { font-family: var(--serif); font-weight: 400; font-size: 34px; margin: 0; line-height: 1.05; }
+  form.reserve h3 .s { font-family: var(--script); color: var(--glow); font-size: 1.3em; }
+  form.reserve p.sub { margin: -6px 0 4px; opacity: .8; font-size: 15px; }
+  .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  form.reserve label { display: block; font-weight: 700; font-size: 13.5px; margin-bottom: 6px; opacity: .85; }
+  form.reserve input, form.reserve select {
+    width: 100%; font: 600 16px var(--sans); color: var(--bg); background: color-mix(in srgb, var(--bg) 8%, transparent);
+    border: 1.5px solid color-mix(in srgb, var(--bg) 28%, transparent); border-radius: 12px; padding: 11px 13px;
+  }
+  form.reserve select option { color: #222; }
+  form.reserve input:focus, form.reserve select:focus { outline: none; border-color: var(--glow); }
+  .seat { display: flex; flex-wrap: wrap; gap: 8px; }
+  .seat input { position: absolute; opacity: 0; pointer-events: none; }
+  .seat label { margin: 0; cursor: pointer; padding: 8px 14px; border-radius: 999px; border: 1.5px solid color-mix(in srgb, var(--bg) 30%, transparent); font-size: 14px; opacity: 1; }
+  .seat input:checked + label { background: var(--glow); border-color: var(--glow); color: #1B120E; }
+  .seat input:focus-visible + label { outline: 3px solid var(--glow); outline-offset: 2px; }
+  .wa { background: #25D366; border-color: #25D366; color: #0B2E17; }
+  .wa:hover { background: #1FBE5B; border-color: #1FBE5B; }
+  form.reserve .note { font-size: 13px; opacity: .7; margin: 0; }
+
+  /* Instagram */
+  .gram { padding-block: 10px 90px; }
+  .gram-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .gram-row a { display: block; border-radius: 14px; overflow: hidden; aspect-ratio: 4 / 5; }
+  .gram-row img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
+  .gram-row a:hover img { transform: scale(1.05); }
+  .gram .head { margin-bottom: 20px; }
+
+  footer.foot { background: #1B120E; color: #E9DCCB; padding-block: 64px 36px; }
+  body.night footer.foot { background: #0F0A08; }
+  footer.foot .wrap { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 36px; }
+  footer.foot .wordmark { width: 170px; color: #E38D5B; }
+  footer.foot p { margin: 12px 0 0; color: #BCA995; font-size: 15px; }
+  footer.foot h4 { margin: 0 0 12px; font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase; color: #9C8672; }
+  footer.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-weight: 600; }
+  footer.foot .small { grid-column: 1 / -1; border-top: 1px solid rgba(255,255,255,.1); padding-top: 18px; font-size: 13px; color: #8E7B69; }
+
+  /* Mobile action bar */
+  .dock { display: none; }
+
+  @media (max-width: 1000px) {
+    nav.links { display: none; }
+    .sig .wrap, .visit .wrap { grid-template-columns: 1fr; }
+    .sig .photo { position: relative; top: 0; aspect-ratio: 16 / 11; }
+    .items { grid-template-columns: 1fr; }
+    .mosaic { grid-template-columns: repeat(6, 1fr); grid-auto-rows: 130px; }
+    .t1 { grid-column: 1 / -1; grid-row: auto / span 3; } .t2, .t3, .t4, .t5, .t6, .t7 { grid-column: auto / span 3; grid-row: auto / span 2; }
+    .space-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 180px; }
+    .s6 { grid-column: span 2; }
+    .ev-grid { grid-template-columns: 1fr 1fr; }
+    .gram-row { grid-template-columns: repeat(3, 1fr); }
+    footer.foot .wrap { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 680px) {
+    body { font-size: 16px; padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px)); }
+    .wrap { padding-inline: 16px; }
+    .top .reserve-top { display: none; }
+    .mode span b { display: none; }
+    .hero .wrap { padding-block: 90px 36px; }
+    .timeline { grid-template-columns: 1fr; }
+    .slot { min-height: 0; }
+    .scale { display: none; }
+    .proof .row { grid-template-columns: 1fr 1fr; }
+    .proof .row > div:nth-child(3) { border-left: 0; }
+    .proof .row > div:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .drinks { grid-template-columns: 1fr; }
+    section.block { padding-block: 64px; }
+    .ev-grid { grid-template-columns: 1fr; }
+    .frow { grid-template-columns: 1fr; }
+    footer.foot .wrap { grid-template-columns: 1fr; }
+    .dock {
+      display: grid; grid-template-columns: repeat(3, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+      background: var(--ink); padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px)); gap: 6px;
+    }
+    .dock a { display: grid; justify-items: center; gap: 2px; padding: 6px; border-radius: 12px; text-decoration: none; color: var(--bg); font-weight: 700; font-size: 12.5px; }
+    .dock a.main { background: var(--clay); color: var(--on-clay); }
+    .dock svg { width: 20px; height: 20px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="concept"><b>Website concept</b> for Tipplr Bar, Pune. Photos and menu from Tipplr's own Instagram, Google and Zomato listings.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="Tipplr home"><span class="wordmark"></span></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#menu">Menu</a>
+      <a href="#events">Events</a>
+      <a href="#space">The space</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="right">
+      <button class="mode" type="button" id="modeBtn" aria-label="Switch between day and night">
+        <span class="d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><b>Day</b></span>
+        <span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><b>Night</b></span>
+      </button>
+      <a class="btn reserve-top" href="#visit">Reserve a table</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="Welcome">
+    <img class="shot day" src="images/day-hero.jpg" alt="Tipplr by day: sage walls, cushioned benches and big garden windows">
+    <img class="shot night" src="images/night-hero.jpg" alt="Tipplr by night: the bar glowing through wooden window frames under rattan lamps">
+    <div class="wrap">
+      <span class="status" id="status"><i></i><span id="statusText">Open every day, 12 noon to 12 midnight</span></span>
+      <h1 class="swap">
+        <span class="dayc"><span class="by">by day,</span><span class="line">good coffee and a quiet table.</span></span>
+        <span class="nightc"><span class="by">by night,</span><span class="line">cocktails, kebabs and your people.</span></span>
+      </h1>
+      <p class="lede">A modern neighbourhood bar on Bhandarkar Road. Work through the afternoon, catch happy hours till 6, and stay for the night.</p>
+      <div class="ctas">
+        <a class="btn light" href="#visit">Reserve a table</a>
+        <a class="btn outline-light" href="#menu">See the menu</a>
+      </div>
+      <div class="clock" id="clock"></div>
+    </div>
+  </section>
+
+  <section class="day2night wrap" aria-labelledby="d2n">
+    <div class="d2n-head">
+      <div>
+        <div class="eyebrow">One room, noon to midnight</div>
+        <h2 id="d2n"><span class="s">two</span> moods, one address.</h2>
+      </div>
+      <p>Tipplr changes with your day. Tap either half to see the room the way it looks then.</p>
+    </div>
+    <div class="timeline">
+      <div class="now-marker" id="nowMarker" hidden><span id="nowLabel"></span></div>
+      <button class="slot d" type="button" data-mode="day">
+        <span class="hrs">12 noon to 6 pm</span>
+        <b>Laptops, coffee and happy hours</b>
+        <p>A relaxed place to work in the afternoon, with window seats looking onto the garden and happy hours till 6.</p>
+        <span class="go">See Tipplr by day</span>
+      </button>
+      <button class="slot n" type="button" data-mode="night">
+        <span class="hrs">6 pm to 12 midnight</span>
+        <b>Cocktails, kebabs and quiz nights</b>
+        <p>The lamps come on and the room turns into a warm neighbourhood bar: crafted cocktails, comforting food, good company.</p>
+        <span class="go">See Tipplr by night</span>
+      </button>
+    </div>
+    <div class="scale" aria-hidden="true"><span>12 pm</span><span>3 pm</span><span>6 pm</span><span>9 pm</span><span>12 am</span></div>
+  </section>
+
+  <section class="proof wrap" aria-label="Ratings">
+    <div class="row">
+      <div><b>4.5<small>/ 5</small></b><span>Google, 809 reviews</span></div>
+      <div><b>4.6<small>/ 5</small></b><span>Zomato, 3,031 ratings</span></div>
+      <div><b>4.6<small>/ 5</small></b><span>Justdial, 3,540 votes</span></div>
+      <div><b>4.5<small>/ 5</small></b><span>Swiggy, 795 reviews</span></div>
+    </div>
+    <p class="talk">Most talked about in reviews: <strong>Dahi Ke Kebab, Quesadillas and Corn Ribs.</strong></p>
+  </section>
+
+  <section class="block sig" aria-labelledby="sigh">
+    <div class="wrap">
+      <div class="photo">
+        <img class="d" src="images/berry-cocktail.jpg" alt="A tall fruit-topped cocktail on the Tipplr bar">
+        <img class="n" src="images/smoked-sour.jpg" alt="A foamy sour with a charred orange wheel and rosemary">
+        <span class="illo" aria-hidden="true"></span>
+      </div>
+      <div>
+        <div class="eyebrow">From the bar</div>
+        <h2 id="sigh"><span class="s">Signature</span>Cocktails</h2>
+        <ul class="drinks" id="sigList"></ul>
+        <div class="offer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14l-7 9z"/><path d="M12 12v8M8 21h8"/></svg>
+          <span>Have any cocktail made with your choice of spirit, at its 60 ml price.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block menu" id="menu" aria-labelledby="menuh">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="eyebrow">The full menu</div>
+          <h2 id="menuh"><span class="s">Eat,</span> drink, repeat.</h2>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="Menu">
+          <button role="tab" id="tabFood" aria-selected="true" data-tab="food">Food <small id="cFood"></small></button>
+          <button role="tab" id="tabBar" aria-selected="false" data-tab="bar">Drinks <small id="cBar"></small></button>
+        </div>
+      </div>
+      <div class="tools">
+        <label class="search"><span class="sr">Search the menu</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" id="q" placeholder="Search, e.g. kebab, paneer, gin, mojito" autocomplete="off">
+        </label>
+        <label class="toggle" id="vegWrap"><input type="checkbox" id="vegOnly"> Veg only</label>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Menu sections"></div>
+      <div class="menu-body" id="menuBody" aria-live="polite"><p class="empty">Loading the menu…</p></div>
+      <div class="menu-foot">
+        <span><span class="dot v" style="vertical-align:-2px"></span> Veg</span>
+        <span><span class="dot nv" style="vertical-align:-2px"></span> Non veg</span>
+        <span><span class="badge sp">Tipplr Special</span></span>
+        <span>Prices in rupees. Government taxes as applicable. 7.5% service charge.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="kitchenh">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="eyebrow">From the kitchen</div>
+          <h2 id="kitchenh"><span class="s">Comfort</span> food, done properly.</h2>
+        </div>
+        <p>North Indian, Asian and Continental, from bar bites to slow-cooked mains. Built for sharing, though nobody will blame you if you don't.</p>
+      </div>
+      <div class="mosaic">
+        <figure class="tile t1 shade"><img src="images/corn-ribs.jpg" alt="Grilled corn ribs with a dip" loading="lazy"><figcaption>Corn Ribs <em>₹249</em></figcaption></figure>
+        <figure class="tile t2"><img src="images/insta/dahi-ke-kebab.jpg" alt="Dahi Ke Kebab with green chutney" loading="lazy" style="object-position:50% 12%"></figure>
+        <figure class="tile t3 shade"><img src="images/buddha-bowl.jpg" alt="Buddha Bowl with quinoa, tofu, edamame and vegetables" loading="lazy"><figcaption>Buddha Bowl <em>from ₹499</em></figcaption></figure>
+        <figure class="tile t4"><img src="images/naan-pot.jpg" alt="A clay pot sealed with charred bread" loading="lazy"></figure>
+        <figure class="tile t5"><img src="images/tikka.jpg" alt="Tikka on a long blue plate" loading="lazy"></figure>
+        <figure class="tile t6 shade"><img src="images/caramel-custard.jpg" alt="Kaapi Caramel Custard with mint" loading="lazy"><figcaption>Kaapi Caramel Custard <em>₹329</em></figcaption></figure>
+        <figure class="tile t7"><img src="images/insta/cottage-cheese-steak.jpg" alt="Cottage Cheese Steak with herbed rice" loading="lazy"></figure>
+      </div>
+      <p class="talked">Tipplr Specials to try: Tangra Paneer, Tipplr Lollipop, Bakarwadi Chat, Pollo Ai Fungi, Mutton Rogan Josh and Baileys Kharwas.</p>
+    </div>
+  </section>
+
+  <section class="block events" id="events" aria-labelledby="evh">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="eyebrow">Events at Tipplr</div>
+          <h2 id="evh"><span class="s">Nights</span> worth planning around.</h2>
+        </div>
+        <p>Quiz nights, collaborations and Sunday workshops. New dates go up on Instagram first.</p>
+      </div>
+      <div class="ev-grid">
+        <article class="ev">
+          <div class="img"><img src="images/insta/quizingo.jpg" alt="Quizingo tickets spread on a wooden table" loading="lazy" style="object-position:50% 40%"></div>
+          <div class="body"><span class="when">Quiz night</span><h3>Quizingo Night</h3><p>Brains get tested and guesses get wild. Thinking fast matters, guessing faster matters more.</p></div>
+        </article>
+        <article class="ev">
+          <div class="img"><img src="images/insta/beer-mandal-darts.jpg" alt="A dartboard hanging in the Tipplr window at night" loading="lazy" style="object-position:50% 35%"></div>
+          <div class="body"><span class="when">Collaboration</span><h3>Tipplr × Pune Beer Mandal</h3><p>Tipplr teamed up with Pune Beer Mandal for a night of beer, darts and good company.</p></div>
+        </article>
+        <article class="ev">
+          <div class="img"><img src="images/rattan-nook.jpg" alt="A cane chair and plants in a quiet corner of Tipplr" loading="lazy"></div>
+          <div class="body"><span class="when">Sundays</span><h3>Sunday Workshops</h3><p>Hands-on workshops on Sundays. The next one is announced on Instagram.</p></div>
+        </article>
+      </div>
+      <div class="ev-foot">
+        <p>Want to host a party or a workshop at Tipplr?</p>
+        <a class="btn" href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener">See dates on @tipplrpune</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="space" aria-labelledby="spaceh">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <div class="eyebrow">The space</div>
+          <h2 id="spaceh"><span class="s">Sage,</span> rattan and a courtyard.</h2>
+        </div>
+        <p>Garden windows, cushioned benches, a wood-panelled courtyard and swing seats by the bar. Indoor and outdoor seating.</p>
+      </div>
+      <div class="space-grid">
+        <figure class="s1"><img src="images/sage-wall.jpg" alt="The sage-green feature wall with cushioned bench seating" loading="lazy"><figcaption>The sage room</figcaption></figure>
+        <figure class="s2"><img src="images/courtyard.jpg" alt="The courtyard with a wood-slat wall and a draped fabric ceiling" loading="lazy"><figcaption>The courtyard</figcaption></figure>
+        <figure class="s3"><img src="images/window-seat.jpg" alt="A window table overlooking the garden" loading="lazy"><figcaption>Garden windows</figcaption></figure>
+        <figure class="s4"><img src="images/swing-bar.jpg" alt="Cane swing chairs along the bar at night" loading="lazy"><figcaption>Swing seats by the bar</figcaption></figure>
+        <figure class="s5"><img src="images/night-courtyard.jpg" alt="The courtyard lit by rattan lamps after dark" loading="lazy"><figcaption>After dark</figcaption></figure>
+        <figure class="s6"><img src="images/sign.jpg" alt="The Tipplr sign on a white wall at the entrance" loading="lazy" style="object-position:50% 55%"><figcaption>Bhandarkar Road</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block visit" id="visit" aria-labelledby="visith">
+    <div class="wrap">
+      <div class="info">
+        <div>
+          <div class="eyebrow">Visit</div>
+          <h2 id="visith"><span class="s">See</span> you at Tipplr.</h2>
+        </div>
+        <div class="card">
+          <dl>
+            <dt>Where</dt><dd>Rajwant Apartment, 797/3, Bhandarkar Road, Deccan Gymkhana, Pune 411004</dd>
+            <dt>Hours</dt><dd>Every day, 12 noon to 12 midnight<br><span style="color:var(--muted)">Happy hours till 6 pm</span></dd>
+            <dt>Call</dt><dd><a href="tel:+919175536797">+91 91755 36797</a></dd>
+            <dt>Price</dt><dd>About ₹1,500 for two, with alcohol</dd>
+          </dl>
+          <div class="acts">
+            <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Tipplr+Bar+Bhandarkar+Road+Pune" target="_blank" rel="noopener">Get directions</a>
+            <a class="btn ghost" href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+          <p class="also">Also bookable on <a href="https://www.district.in" target="_blank" rel="noopener">District</a>, <a href="https://www.zomato.com/pune/tipplr-deccan-gymkhana" target="_blank" rel="noopener">Zomato</a> and <a href="https://www.eazydiner.com" target="_blank" rel="noopener">EazyDiner</a>.</p>
+        </div>
+      </div>
+
+      <form class="reserve" id="reserve">
+        <h3><span class="s">Book</span> a table</h3>
+        <p class="sub">Fill this in and we'll open WhatsApp with your request ready to send.</p>
+        <div class="frow">
+          <div><label for="rName">Your name</label><input type="text" id="rName" autocomplete="name" placeholder="Name"></div>
+          <div><label for="rGuests">Guests</label>
+            <select id="rGuests"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>10</option><option>12+</option></select>
+          </div>
+        </div>
+        <div class="frow">
+          <div><label for="rDate">Date</label><input type="date" id="rDate"></div>
+          <div><label for="rTime">Time</label><select id="rTime"></select></div>
+        </div>
+        <fieldset style="border:0;padding:0;margin:0">
+          <legend style="font-weight:700;font-size:13.5px;margin-bottom:8px;opacity:.85">Seating</legend>
+          <div class="seat">
+            <input type="radio" name="seat" id="st1" value="Indoors" checked><label for="st1">Indoors</label>
+            <input type="radio" name="seat" id="st2" value="Courtyard"><label for="st2">Courtyard</label>
+            <input type="radio" name="seat" id="st3" value="By the bar"><label for="st3">By the bar</label>
+            <input type="radio" name="seat" id="st4" value="No preference"><label for="st4">No preference</label>
+          </div>
+        </fieldset>
+        <div><label for="rNote">Occasion or note (optional)</label><input type="text" id="rNote" placeholder="Birthday, work meeting, quiz night…"></div>
+        <a class="btn wa" id="waBtn" href="https://wa.me/919175536797" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.4-.3z"/></svg>
+          Send request on WhatsApp
+        </a>
+        <p class="note">The Tipplr team confirms every booking on WhatsApp. Prefer to call? +91 91755 36797</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="gram wrap" aria-labelledby="gramh">
+    <div class="head">
+      <div>
+        <div class="eyebrow">@tipplrpune</div>
+        <h2 id="gramh" style="font-size:clamp(30px,4vw,44px)"><span class="s">Fresh</span> from the feed</h2>
+      </div>
+      <a class="btn ghost" href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener">Follow on Instagram</a>
+    </div>
+    <div class="gram-row">
+      <a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener"><img src="images/insta/aperol-spritz.jpg" alt="Aperol Spritz" loading="lazy"></a>
+      <a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener"><img src="images/insta/cupid.jpg" alt="Cupid, a green apple and kiwi mocktail" loading="lazy"></a>
+      <a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener"><img src="images/insta/spiced-guava.jpg" alt="Spiced Guava mocktail with a chilli rim" loading="lazy"></a>
+      <a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener"><img src="images/insta/veg-special.jpg" alt="Tipplr's Veg Special" loading="lazy"></a>
+      <a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener"><img src="images/insta/mocktail-trio.jpg" alt="Lychee Spritzer, Cinderella and Cupid mocktails" loading="lazy"></a>
+      <a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener"><img src="images/insta/two-friends.jpg" alt="Two friends raising cocktails" loading="lazy"></a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <span class="wordmark" aria-label="Tipplr"></span>
+      <p>A modern neighbourhood bar on Bhandarkar Road, Pune. Coffee by day, cocktails by night.</p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <ul>
+        <li>797/3, Bhandarkar Road, Deccan Gymkhana</li>
+        <li>12 noon to 12 midnight, every day</li>
+        <li><a href="tel:+919175536797">+91 91755 36797</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#visit">Book a table</a></li>
+        <li><a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="small">Website concept prepared for Tipplr Bar. Photos and menu belong to Tipplr.</div>
+  </div>
+</footer>
+
+<nav class="dock" aria-label="Quick actions">
+  <a href="#menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Menu</a>
+  <a class="main" href="#visit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Book a table</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Tipplr+Bar+Bhandarkar+Road+Pune" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Directions</a>
+</nav>
+
+<script>
+  // Pune time drives the default mode: night from 6 pm until noon's opening
+  const istNow = () => { const d = new Date(); return new Date(d.getTime() + (d.getTimezoneOffset() + 330) * 60000); };
+  const fmtTime = d => d.toLocaleTimeString("en-IN", { hour: "numeric", minute: "2-digit", hour12: true }).toLowerCase();
+  let userPicked = false;
+
+  const setMode = (night, fromUser) => {
+    document.body.classList.toggle("night", night);
+    if (fromUser) userPicked = true;
+    updateClock();
+  };
+
+  const updateClock = () => {
+    const now = istNow(), h = now.getHours() + now.getMinutes() / 60;
+    const open = h >= 12;
+    const st = document.getElementById("status"), stt = document.getElementById("statusText");
+    st.classList.toggle("closed", !open);
+    if (!open) stt.textContent = "Opens today at 12 noon";
+    else if (h < 18) stt.textContent = "Open now · Happy hours till 6 pm";
+    else stt.textContent = "Open now · Until 12 midnight";
+    const night = document.body.classList.contains("night");
+    document.getElementById("clock").textContent =
+      `It's ${fmtTime(now)} in Pune. ${userPicked ? "You're" : "We're"} showing Tipplr by ${night ? "night" : "day"}.`;
+    const mk = document.getElementById("nowMarker");
+    if (open) {
+      mk.hidden = false;
+      const pct = Math.min(99.5, (h - 12) / 12 * 100);
+      if (window.matchMedia("(max-width: 680px)").matches) mk.hidden = true;
+      mk.style.left = pct + "%";
+      document.getElementById("nowLabel").textContent = "Now, " + fmtTime(now);
+      mk.querySelector("span").style.left = pct > 80 ? "auto" : "8px";
+      mk.querySelector("span").style.right = pct > 80 ? "8px" : "auto";
+    } else mk.hidden = true;
+  };
+
+  const h0 = istNow().getHours();
+  setMode(h0 >= 18 || h0 < 4, false);
+  setInterval(updateClock, 30000);
+  document.getElementById("modeBtn").addEventListener("click", () => setMode(!document.body.classList.contains("night"), true));
+  document.querySelectorAll(".slot").forEach(b => b.addEventListener("click", () => {
+    setMode(b.dataset.mode === "night", true);
+    document.querySelector(".hero").scrollIntoView({ behavior: "smooth" });
+  }));
+
+  // Menu
+  const rupee = n => "₹" + Number(n).toLocaleString("en-IN");
+  const label = k => k.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const secName = s => s.replace(/^(Appetizers|Soups|Mains|Dim Sums) - (\w+)$/, "$2 $1").replace(" - ", " · ");
+  let FOOD = [], BAR = [], tab = "food", chip = "Tipplr Specials";
+
+  const priceHtml = (it, cols) => {
+    if (cols) {
+      if (cols.length === 1) return `<span class="pr">${it.prices[0] != null ? rupee(it.prices[0]) : ""}</span>`;
+      return `<span class="pr multi">${cols.map((c, i) => it.prices[i] == null ? "" : `<span>${esc(c)}</span> ${rupee(it.prices[i])}`).join("")}</span>`;
+    }
+    if (typeof it.price === "number") return `<span class="pr">${rupee(it.price)}</span>`;
+    if (it.price && typeof it.price === "object")
+      return `<span class="pr multi">${Object.entries(it.price).map(([k, v]) => `<span>${esc(label(k))}</span> ${rupee(v)}`).join("")}</span>`;
+    return `<span class="pr"></span>`;
+  };
+  const itemHtml = (it, cols) => {
+    const dot = it.veg === true ? '<span class="dot v" title="Veg"></span>' : it.veg === false ? '<span class="dot nv" title="Non veg"></span>' : "";
+    const badges = (it.tipplr_special ? '<span class="badge sp">Tipplr Special</span>' : "") + (it.guest_favourite ? '<span class="badge">Guest favourite</span>' : "");
+    return `<div class="item"><span class="nm">${dot}${esc(it.name)}${badges}</span>${priceHtml(it, cols)}${it.description ? `<span class="ds">${esc(it.description)}</span>` : ""}</div>`;
+  };
+
+  const renderChips = () => {
+    const secs = tab === "food" ? FOOD : BAR;
+    const names = (tab === "food" ? ["Tipplr Specials", "All"] : ["All"]).concat(secs.map(s => s.name));
+    document.getElementById("chips").innerHTML = names.map(n =>
+      `<button class="chip" type="button" data-c="${esc(n)}" aria-pressed="${n === chip}">${esc(n === "Tipplr Specials" || n === "All" ? n : secName(n))}</button>`).join("");
+  };
+
+  const renderMenu = () => {
+    const q = document.getElementById("q").value.trim().toLowerCase();
+    const veg = tab === "food" && document.getElementById("vegOnly").checked;
+    const secs = tab === "food" ? FOOD : BAR;
+    let out = [];
+    const keep = (it, s) => (!veg || it.veg === true) &&
+      (!q || (it.name + " " + (it.description || "") + " " + s.name).toLowerCase().includes(q));
+    if (!q && chip === "Tipplr Specials") {
+      const items = [];
+      secs.forEach(s => s.items.forEach(it => { if (it.tipplr_special && keep(it, s)) items.push(it); }));
+      if (items.length) out.push(`<div class="msec"><h3>Tipplr Specials <small>${items.length} house favourites</small></h3><div class="items">${items.map(it => itemHtml(it)).join("")}</div></div>`);
+    } else {
+      secs.forEach(s => {
+        if (!q && chip !== "All" && s.name !== chip) return;
+        const cols = s.columns && s.columns.length ? s.columns : null;
+        const items = s.items.filter(it => keep(it, s));
+        if (!items.length) return;
+        out.push(`<div class="msec"><h3>${esc(secName(s.name))} <small>${items.length} ${items.length === 1 ? "item" : "items"}</small></h3><div class="items">${items.map(it => itemHtml(it, cols)).join("")}</div></div>`);
+      });
+    }
+    document.getElementById("menuBody").innerHTML = out.length ? out.join("") :
+      `<p class="empty">Nothing matches "${esc(q)}"${veg ? " in veg" : ""}. Try another word.</p>`;
+  };
+
+  const setTab = t => {
+    tab = t; chip = t === "food" ? "Tipplr Specials" : "Signature Cocktails";
+    document.getElementById("tabFood").setAttribute("aria-selected", String(t === "food"));
+    document.getElementById("tabBar").setAttribute("aria-selected", String(t === "bar"));
+    document.getElementById("vegWrap").hidden = t !== "food";
+    renderChips(); renderMenu();
+  };
+  document.querySelectorAll(".menu-tabs button").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+  document.getElementById("chips").addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    chip = b.dataset.c; document.getElementById("q").value = "";
+    renderChips(); renderMenu();
+  });
+  document.getElementById("q").addEventListener("input", renderMenu);
+  document.getElementById("vegOnly").addEventListener("change", renderMenu);
+
+  Promise.all([fetch("data/food-menu.json").then(r => r.json()), fetch("data/bar-menu.json").then(r => r.json())])
+    .then(([f, b]) => {
+      FOOD = f.sections; BAR = b.sections;
+      const count = secs => secs.reduce((n, s) => n + s.items.length, 0);
+      document.getElementById("cFood").textContent = count(FOOD);
+      document.getElementById("cBar").textContent = count(BAR);
+      const sig = BAR.find(s => s.name === "Signature Cocktails");
+      if (sig) document.getElementById("sigList").innerHTML = sig.items.map(it =>
+        `<li><span class="nm">${esc(it.name)}${it.tipplr_special ? '<span class="tag">House special</span>' : ""}</span><span class="pr">${rupee(it.prices[0])}</span><span class="ds">${esc(it.description)}</span></li>`).join("");
+      setTab("food");
+    })
+    .catch(() => {
+      document.getElementById("menuBody").innerHTML = '<p class="empty">The menu could not load here. <a href="https://www.zomato.com/pune/tipplr-deccan-gymkhana/menu" target="_blank" rel="noopener">See it on Zomato</a>.</p>';
+    });
+
+  // Reservation: builds a WhatsApp message, since wa.me supports pre-filled text
+  const pad = n => String(n).padStart(2, "0");
+  const today = istNow();
+  const rDate = document.getElementById("rDate");
+  rDate.value = rDate.min = `${today.getFullYear()}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
+  const rTime = document.getElementById("rTime");
+  for (let m = 12 * 60; m <= 23 * 60; m += 30) {
+    const h = Math.floor(m / 60), mm = m % 60, h12 = h > 12 ? h - 12 : h;
+    const o = document.createElement("option");
+    o.textContent = `${h12}:${pad(mm)} ${h >= 12 ? "pm" : "am"}`.replace("12:00 pm", "12:00 noon");
+    if (h === 20 && mm === 0) o.selected = true;
+    rTime.appendChild(o);
+  }
+  const waBtn = document.getElementById("waBtn");
+  const buildWa = () => {
+    const name = document.getElementById("rName").value.trim();
+    const d = new Date(rDate.value + "T12:00:00");
+    const dateTxt = isNaN(d) ? rDate.value : d.toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long" });
+    const seat = (document.querySelector('input[name="seat"]:checked') || {}).value;
+    const note = document.getElementById("rNote").value.trim();
+    let m = `Hi Tipplr! I'd like to reserve a table.\n\nName: ${name || "(your name)"}\nDate: ${dateTxt}\nTime: ${rTime.value}\nGuests: ${document.getElementById("rGuests").value}\nSeating: ${seat}`;
+    if (note) m += `\nNote: ${note}`;
+    waBtn.href = "https://wa.me/919175536797?text=" + encodeURIComponent(m);
+  };
+  document.getElementById("reserve").addEventListener("input", buildWa);
+  document.getElementById("reserve").addEventListener("change", buildWa);
+  document.getElementById("reserve").addEventListener("submit", e => e.preventDefault());
+  buildWa();
+</script>
+
+</body>
+</html>
