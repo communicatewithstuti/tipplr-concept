@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tipplr Menu</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="images/tipplr-wordmark.png">
+<meta name="description" content="The Tipplr Bar menu: food and drinks, Bhandarkar Road, Pune.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ms+Madi&family=Quicksand:wght@400;500;600;700&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --cover: #A0725A;
+    --paper: #F7F0E1;
+    --paper-2: #EFE5D0;
+    --ink: #9A5232;
+    --text: #3B2A22;
+    --muted: #7E6A5C;
+    --line: #DCCBB1;
+    --veg: #2F8A3E;
+    --nonveg: #B3261E;
+    --special: #7D4BA0;
+    --script: "Ms Madi", "Snell Roundhand", "Brush Script MT", cursive;
+    --serif: "DM Serif Display", Georgia, serif;
+    --sans: "Quicksand", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html { scroll-padding-top: 118px; }
+  body { margin: 0; background: var(--cover); color: var(--text); font-family: var(--sans); font-weight: 500; -webkit-font-smoothing: antialiased; }
+  img { max-width: 100%; display: block; }
+  button { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; border-radius: 6px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  .book { max-width: 720px; margin-inline: auto; background: var(--paper); min-height: 100vh; box-shadow: 0 0 60px rgba(40,20,10,.25); }
+
+  .mask-img { display: block; background: currentColor; }
+  .wordmark { aspect-ratio: 441 / 217; -webkit-mask: url(images/tipplr-wordmark.png) center / contain no-repeat; mask: url(images/tipplr-wordmark.png) center / contain no-repeat; }
+  .illo { aspect-ratio: 664 / 423; -webkit-mask: url(images/bar-illustration.png) center / contain no-repeat; mask: url(images/bar-illustration.png) center / contain no-repeat; }
+
+  /* Cover */
+  .cover { background: var(--cover); color: #F3E8D2; text-align: center; padding: 34px 20px 26px; display: grid; justify-items: center; gap: 12px; }
+  .cover .wordmark { width: 150px; }
+  .cover .illo { width: 150px; opacity: .9; }
+  .cover .tag { font-size: 13px; letter-spacing: .32em; text-transform: uppercase; font-weight: 600; }
+  .cover .info { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; font-size: 13.5px; font-weight: 600; color: #F7EEDD; }
+  .cover .info span + span::before { content: "·"; margin-right: 16px; opacity: .7; }
+
+  /* Sticky controls */
+  .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: 0 6px 16px -12px rgba(60,30,15,.4); }
+  .bar-top { display: flex; align-items: center; gap: 10px; padding: 12px 16px 8px; }
+  .tabs { display: inline-flex; background: var(--paper-2); border-radius: 999px; padding: 4px; }
+  .tabs button { border: 0; background: none; cursor: pointer; padding: 8px 18px; border-radius: 999px; font-weight: 700; font-size: 15px; color: var(--muted); }
+  .tabs button[aria-selected="true"] { background: var(--ink); color: #FFF7EA; }
+  .icon-btn { margin-left: auto; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--line); background: none; display: grid; place-items: center; cursor: pointer; color: var(--ink); flex: none; }
+  .icon-btn svg { width: 19px; height: 19px; }
+  .veg { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; font-size: 13.5px; cursor: pointer; color: var(--text); user-select: none; }
+  .veg input { appearance: none; -webkit-appearance: none; width: 36px; height: 21px; border-radius: 999px; background: var(--line); position: relative; margin: 0; cursor: pointer; transition: background .2s; }
+  .veg input::after { content: ""; position: absolute; top: 2.5px; left: 2.5px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: transform .2s; box-shadow: 0 1px 2px rgba(0,0,0,.25); }
+  .veg input:checked { background: var(--veg); }
+  .veg input:checked::after { transform: translateX(15px); }
+  .search { padding: 0 16px 10px; }
+  .search input { width: 100%; font: 600 16px var(--sans); color: var(--text); background: #FFFBF3; border: 1.5px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+  .search input:focus { outline: none; border-color: var(--ink); }
+  .chips { display: flex; gap: 6px; overflow-x: auto; padding: 0 16px 12px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; border: 1.5px solid var(--line); background: none; border-radius: 999px; padding: 6px 13px; font-weight: 700; font-size: 13.5px; color: var(--muted); cursor: pointer; white-space: nowrap; }
+  .chip.on { background: var(--text); border-color: var(--text); color: var(--paper); }
+
+  /* Menu pages */
+  .pages { padding: 6px 18px 30px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; font-weight: 600; color: var(--muted); padding: 14px 2px 0; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  section.sec { padding-top: 30px; }
+  .sec h2 { margin: 0 0 4px; font-weight: 400; text-align: center; line-height: 1; color: var(--ink); }
+  .sec h2 .s { display: block; font-family: var(--script); font-size: 44px; line-height: .7; margin-bottom: -2px; }
+  .sec h2 .m { display: block; font-family: var(--serif); font-size: 34px; letter-spacing: .005em; }
+  .sec .rule { height: 1px; background: var(--line); margin: 14px 0 4px; }
+  .cols { display: flex; justify-content: flex-end; gap: 0; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 8px 0 2px; }
+  .cols span, .prices span { width: 64px; text-align: right; flex: none; }
+  .item { display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px dashed var(--line); align-items: flex-start; }
+  .item:last-child { border-bottom: 0; }
+  .thumb { flex: none; width: 66px; height: 66px; border-radius: 12px; overflow: hidden; border: 0; padding: 0; cursor: zoom-in; background: var(--paper-2); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .body { flex: 1; min-width: 0; }
+  .top { display: flex; align-items: baseline; gap: 10px; }
+  .nm { flex: 1; min-width: 0; font-weight: 700; font-size: 15px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); line-height: 1.3; }
+  .nm .marks { display: inline-flex; gap: 5px; vertical-align: -1px; margin-left: 6px; }
+  .pr { font-weight: 700; font-size: 15px; font-variant-numeric: tabular-nums; color: var(--text); white-space: nowrap; }
+  .prices { display: flex; justify-content: flex-end; font-weight: 700; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+  .variants { display: flex; flex-wrap: wrap; gap: 2px 14px; margin-top: 4px; font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .variants em { font-style: normal; font-weight: 600; color: var(--muted); margin-right: 4px; }
+  .ds { margin: 4px 0 0; font-size: 13.5px; line-height: 1.45; color: var(--muted); }
+  .dot { width: 13px; height: 13px; border: 1.5px solid currentColor; border-radius: 2px; display: inline-grid; place-items: center; flex: none; }
+  .dot::after { content: ""; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+  .dot.v { color: var(--veg); } .dot.nv { color: var(--nonveg); }
+  .sp { width: 15px; height: 15px; border-radius: 50%; background: var(--special); color: #fff; font: 700 9px var(--sans); display: inline-grid; place-items: center; letter-spacing: 0; }
+  .fav { color: #C4372C; font-size: 14px; line-height: 1; }
+  .note { margin: 14px 0 0; padding: 12px 14px; background: var(--paper-2); border-radius: 12px; font-size: 13.5px; font-weight: 600; text-align: center; color: var(--text); }
+  .empty { text-align: center; color: var(--muted); padding: 50px 10px; }
+  .empty button { margin-top: 10px; border: 1.5px solid var(--ink); color: var(--ink); background: none; border-radius: 999px; padding: 7px 16px; font-weight: 700; cursor: pointer; }
+
+  .foot { text-align: center; padding: 30px 20px 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; display: grid; gap: 8px; justify-items: center; }
+  .foot .wordmark { width: 76px; color: var(--ink); }
+  .foot a { color: var(--ink); font-weight: 700; }
+  .concept { font-size: 11.5px; opacity: .8; }
+
+  /* Photo sheet */
+  .sheet { position: fixed; inset: 0; z-index: 50; background: rgba(35,20,12,.72); display: grid; align-items: end; justify-items: center; }
+  .sheet .card { width: min(560px, 100%); background: var(--paper); border-radius: 22px 22px 0 0; padding: 14px 14px calc(22px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 12px; }
+  .sheet img { width: 100%; max-height: 62vh; object-fit: cover; border-radius: 14px; }
+  .sheet .row { display: flex; align-items: baseline; gap: 12px; padding: 0 4px; }
+  .sheet .row b { flex: 1; font-family: var(--serif); font-weight: 400; font-size: 24px; color: var(--ink); }
+  .sheet .row span { font-weight: 700; }
+  .sheet button { justify-self: center; border: 0; background: var(--text); color: var(--paper); border-radius: 999px; padding: 10px 26px; font-weight: 700; cursor: pointer; }
+
+  @media (min-width: 721px) { .book { margin-block: 28px; border-radius: 6px; overflow: clip; min-height: 0; } }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<div class="book">
+  <header class="cover">
+    <span class="mask-img wordmark" role="img" aria-label="Tipplr"></span>
+    <span class="mask-img illo" aria-hidden="true"></span>
+    <span class="tag">Menu</span>
+    <div class="info"><span>12 noon to 12 midnight</span><span>Happy hours till 6 pm</span></div>
+  </header>
+
+  <div class="bar">
+    <div class="bar-top">
+      <div class="tabs" role="tablist" aria-label="Menu">
+        <button role="tab" id="tFood" aria-selected="true" data-tab="food">Food</button>
+        <button role="tab" id="tBar" aria-selected="false" data-tab="bar">Drinks</button>
+      </div>
+      <label class="veg" id="vegWrap"><input type="checkbox" id="vegOnly"> Veg</label>
+      <button class="icon-btn" id="searchBtn" type="button" aria-label="Search the menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+    </div>
+    <div class="search" id="searchRow" hidden>
+      <label class="sr" for="q">Search the menu</label>
+      <input type="search" id="q" placeholder="Search dishes and drinks" autocomplete="off">
+    </div>
+    <nav class="chips" id="chips" aria-label="Sections"></nav>
+  </div>
+
+  <main class="pages" id="pages" aria-live="polite">
+    <p class="empty">Loading the menu…</p>
+  </main>
+
+  <footer class="foot">
+    <span class="mask-img wordmark" role="img" aria-label="Tipplr"></span>
+    <div>Prices in ₹. Government taxes as applicable. 7.5% service charge.</div>
+    <div>797/3, Bhandarkar Road, Deccan Gymkhana, Pune · +91 91755 36797</div>
+    <div><a href="https://www.instagram.com/tipplrpune/" target="_blank" rel="noopener">@tipplrpune</a></div>
+    <div class="concept">Digital menu concept for Tipplr Bar</div>
+  </footer>
+</div>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="card" role="dialog" aria-modal="true" aria-labelledby="sheetName">
+    <img id="sheetImg" src="" alt="">
+    <div class="row"><b id="sheetName"></b><span id="sheetPrice"></span></div>
+    <button type="button" id="sheetClose">Close</button>
+  </div>
+</div>
+
+<script>
+  const PHOTOS = {
+    "Corn Ribs": "images/corn-ribs.jpg",
+    "Buddha Bowl (Veg / Chicken)": "images/buddha-bowl.jpg",
+    "Kaapi Caramel Custard": "images/caramel-custard.jpg",
+    "Dahi Ke Kebab": "images/insta/dahi-ke-kebab.jpg",
+    "Cottage Cheese Steak": "images/insta/cottage-cheese-steak.jpg",
+    "Tipplr's Special Veg": "images/insta/veg-special.jpg",
+    "Aperol Spritz": "images/insta/aperol-spritz.jpg",
+    "Cupid": "images/insta/cupid.jpg",
+    "Spiced Guava": "images/insta/spiced-guava.jpg",
+    "Cinderella": "images/insta/mocktail-trio.jpg"
+  };
+  // Section names like "Appetizers - Indian" become script "Indian" over serif "Appetizers"
+  const titleParts = name => {
+    const m = name.match(/^(.+) - (.+)$/);
+    if (m) return [m[2], m[1]];
+    const w = name.split(" ");
+    return w.length > 1 ? [w.slice(0, -1).join(" "), w[w.length - 1]] : ["", name];
+  };
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const num = n => n == null ? "–" : Number(n).toLocaleString("en-IN");
+  const label = k => k.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
+  let DATA = { food: [], bar: [] }, tab = "food";
+  const pages = document.getElementById("pages"), chips = document.getElementById("chips");
+  const q = document.getElementById("q"), vegOnly = document.getElementById("vegOnly");
+
+  const marks = it => {
+    let m = "";
+    if (it.veg === true) m += '<span class="dot v" title="Veg"></span>';
+    if (it.veg === false) m += '<span class="dot nv" title="Non veg"></span>';
+    if (it.tipplr_special) m += '<span class="sp" title="Tipplr Special">T</span>';
+    if (it.guest_favourite) m += '<span class="fav" title="Guest favourite">★</span>';
+    return m ? `<span class="marks">${m}</span>` : "";
+  };
+  const priceText = (it, cols) => {
+    if (cols) return cols.length === 1 ? num(it.prices[0]) : cols.map((c, i) => `${c} ${num(it.prices[i])}`).join(", ");
+    if (typeof it.price === "number") return num(it.price);
+    return Object.entries(it.price || {}).map(([k, v]) => `${label(k)} ${num(v)}`).join(", ");
+  };
+  // When the price line already lists the options, drop them from the name ("Tom Kha - Veg/Chicken/Prawns" becomes "Tom Kha")
+  const shortName = it => (it.price && typeof it.price === "object")
+    ? it.name.replace(/\s+-\s+[^-]+$/, "").replace(/\s*\((Veg|Half|Paneer)[^)]*\)\s*$/i, "") : it.name;
+  const itemHtml = (it, cols, key) => {
+    const photo = PHOTOS[it.name];
+    const thumb = photo ? `<button class="thumb" type="button" data-key="${key}" aria-label="Photo of ${esc(it.name)}"><img src="${photo}" alt="" loading="lazy"></button>` : "";
+    let price = "", extra = "";
+    if (cols && cols.length > 1) extra = `<div class="prices">${it.prices.map(p => `<span>${num(p)}</span>`).join("")}</div>`;
+    else if (cols) price = `<span class="pr">${num(it.prices[0])}</span>`;
+    else if (typeof it.price === "number") price = `<span class="pr">${num(it.price)}</span>`;
+    else if (it.price) extra = `<div class="variants">${Object.entries(it.price).map(([k, v]) => `<span><em>${esc(label(k))}</em>${num(v)}</span>`).join("")}</div>`;
+    return `<div class="item">${thumb}<div class="body"><div class="top"><span class="nm">${esc(shortName(it))}${marks(it)}</span>${price}</div>${extra}${it.description ? `<p class="ds">${esc(it.description)}</p>` : ""}</div></div>`;
+  };
+
+  const LOOKUP = {};
+  const render = () => {
+    const secs = DATA[tab], term = q.value.trim().toLowerCase(), veg = tab === "food" && vegOnly.checked;
+    const out = [], shown = [];
+    secs.forEach((s, si) => {
+      const cols = s.columns && s.columns.length ? s.columns : null;
+      const items = s.items.map((it, ii) => [it, ii]).filter(([it]) => (!veg || it.veg === true) &&
+        (!term || (it.name + " " + (it.description || "") + " " + s.name).toLowerCase().includes(term)));
+      if (!items.length) return;
+      const [scr, main] = titleParts(s.name);
+      shown.push(s.name);
+      out.push(`<section class="sec" id="${slug(tab + "-" + s.name)}" data-name="${esc(s.name)}">
+        <h2>${scr ? `<span class="s">${esc(scr)}</span>` : ""}<span class="m">${esc(main)}</span></h2>
+        <div class="rule"></div>
+        ${cols && cols.length > 1 ? `<div class="cols">${cols.map(c => `<span>${esc(c)}</span>`).join("")}</div>` : ""}
+        ${items.map(([it, ii]) => { const key = `${tab}|${si}|${ii}`; LOOKUP[key] = [it, cols]; return itemHtml(it, cols, key); }).join("")}
+        ${s.name === "Signature Cocktails" ? '<p class="note">Have any cocktail made with your choice of spirit, at its 60 ml price.</p>' : ""}
+        ${s.name === "Craft Beer" ? '<p class="note">Ask your server for today\'s styles.</p>' : ""}
+      </section>`);
+    });
+    if (!out.length) {
+      const other = tab === "food" ? "bar" : "food";
+      const hits = term ? DATA[other].reduce((n, s) => n + s.items.filter(it => (it.name + " " + (it.description || "")).toLowerCase().includes(term)).length, 0) : 0;
+      pages.innerHTML = `<div class="empty">Nothing here for "${esc(term)}"${veg ? " in veg" : ""}.${hits ? `<br><button type="button" id="jump">See ${hits} in ${other === "bar" ? "Drinks" : "Food"}</button>` : ""}</div>`;
+      const j = document.getElementById("jump"); if (j) j.onclick = () => setTab(other);
+    } else {
+      const legend = tab === "food"
+        ? '<div class="legend"><span><span class="dot v"></span>Veg</span><span><span class="dot nv"></span>Non veg</span><span><span class="sp">T</span>Tipplr Special</span></div>'
+        : '<div class="legend"><span><span class="sp">T</span>Tipplr Special</span><span><span class="fav">★</span>Guest favourite</span></div>';
+      pages.innerHTML = legend + out.join("");
+    }
+    chips.innerHTML = shown.map(n => { const [s, m] = titleParts(n); return `<button class="chip" type="button" data-target="${slug(tab + "-" + n)}">${esc(s ? s + " " + m : m)}</button>`; }).join("");
+    spy();
+  };
+
+  const setTab = t => {
+    tab = t;
+    document.getElementById("tFood").setAttribute("aria-selected", String(t === "food"));
+    document.getElementById("tBar").setAttribute("aria-selected", String(t === "bar"));
+    document.getElementById("vegWrap").hidden = t !== "food";
+    render();
+    window.scrollTo({ top: document.querySelector(".bar").offsetTop, behavior: "auto" });
+  };
+  document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => setTab(b.dataset.tab)));
+  vegOnly.addEventListener("change", render);
+  q.addEventListener("input", render);
+  document.getElementById("searchBtn").addEventListener("click", e => {
+    const row = document.getElementById("searchRow"), open = row.hidden;
+    row.hidden = !open; e.currentTarget.setAttribute("aria-expanded", String(open));
+    if (open) q.focus(); else { q.value = ""; render(); }
+  });
+  chips.addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    const el = document.getElementById(b.dataset.target);
+    if (el) window.scrollTo({ top: el.getBoundingClientRect().top + scrollY - document.querySelector(".bar").offsetHeight - 4, behavior: "smooth" });
+  });
+
+  // Highlight the section being read and keep its chip in view
+  let ticking = false;
+  const spy = () => {
+    const barH = document.querySelector(".bar").offsetHeight + 12;
+    let current = null;
+    document.querySelectorAll("section.sec").forEach(s => { if (s.getBoundingClientRect().top - barH <= 0) current = s.id; });
+    if (!current) { const f = document.querySelector("section.sec"); current = f && f.id; }
+    chips.querySelectorAll(".chip").forEach(c => {
+      const on = c.dataset.target === current;
+      if (on && !c.classList.contains("on")) chips.scrollTo({ left: c.offsetLeft - 16, behavior: "smooth" });
+      c.classList.toggle("on", on);
+    });
+  };
+  addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(() => { spy(); ticking = false; }); } }, { passive: true });
+
+  // Photo sheet
+  const sheet = document.getElementById("sheet");
+  pages.addEventListener("click", e => {
+    const t = e.target.closest(".thumb"); if (!t) return;
+    const [it, cols] = LOOKUP[t.dataset.key];
+    document.getElementById("sheetImg").src = PHOTOS[it.name];
+    document.getElementById("sheetImg").alt = it.name;
+    document.getElementById("sheetName").textContent = shortName(it);
+    document.getElementById("sheetPrice").textContent = "₹ " + priceText(it, cols);
+    sheet.hidden = false; document.getElementById("sheetClose").focus();
+  });
+  const closeSheet = () => { sheet.hidden = true; };
+  document.getElementById("sheetClose").addEventListener("click", closeSheet);
+  sheet.addEventListener("click", e => { if (e.target === sheet) closeSheet(); });
+  addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+
+  Promise.all([fetch("data/food-menu.json").then(r => r.json()), fetch("data/bar-menu.json").then(r => r.json())])
+    .then(([f, b]) => { DATA.food = f.sections; DATA.bar = b.sections; render(); })
+    .catch(() => { pages.innerHTML = '<p class="empty">The menu could not load. Please ask your server for a printed menu.</p>'; });
+</script>
+
+</body>
+</html>
